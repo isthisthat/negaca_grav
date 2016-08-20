@@ -1,0 +1,120 @@
+/*
+custom styles 
+*/
+
+
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+
+
+@font-face {
+    font-family: 'ginga';
+    src: url('/user/themes/bootgrav-custom/fonts/Ginga.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'adler';
+    src: url('/user/themes/bootgrav-custom/fonts/Adler.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* equal height row */
+.row-eq {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.row-eq > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+/* additional sections */
+#home {
+  background: url('/images/bg.jpg') no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #ffffff;
+}
+
+#home h1 {
+  font-size: 6.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  font-family: 'zing_easyregular';
+}
+
+#about {
+  /*background-color: #tttttt;
+  color: #ffffff;*/
+}
+#about h2 {
+  font-family: 'adler';
+  font-size: 3.0em;
+  text-transform: capitalize;
+}
+
+
+#history {
+  /*background: url('/static/img/corfuall.jpg') no-repeat center center fixed;*/
+  background-color: #195819;
+  color: #ffffff;
+  /*background-size: cover;
+  text-align: justify;*/
+}
+#history h2 {
+  color: #ffffff;
+  font-family: 'zing_easyregular';
+  font-size: 4.0em;
+}
+
+#information .panel {
+  opacity: 0.85;
+}
+
+#map {
+  height: 500px;
+}
+
+footer {
+  padding: 20px 0;
+}
+footer .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+footer .glyphicon:hover {
+  color: #306d9f;
+}
+

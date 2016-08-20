@@ -1,0 +1,16 @@
+title: Negaça
+author:
+  name: Negaça
+  email: joe@test.com
+taxonomies:
+  - category
+  - tag
+metadata:
+  description: 'Grupo Negaça Capoeira is a brazilian martial arts group in Cambridge, Saffron Walden and Stapleford'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: /blog

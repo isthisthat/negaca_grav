@@ -1,0 +1,8 @@
+name: BootGrav-custom
+version: 1.0.0
+description: "Extending BootGrav"
+icon: newspaper-o
+author:
+  name: Stathis Kanterakis
+  email: stanislav.vasko@gmail.com
+  url: http://moreplavec.cz
