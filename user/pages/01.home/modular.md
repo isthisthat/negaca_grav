@@ -8,10 +8,5 @@ content:
     order:
         by: default
         dir: asc
-        custom:
-            - _test
-            - _chello
-            - _foobar
-            - _what
 ---
 

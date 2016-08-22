@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'plugins://feed/feed.yaml',
-    'modified' => 1471019941,
+    'modified' => 1471733122,
     'data' => [
         'enabled' => true,
         'limit' => 10,

@@ -1,5 +1,18 @@
 {% extends 'partials/base.html.twig' %}
 
 {% block content %}
-    {{ page.content }}
+<!-- section - {{ page.menu }} -->
+<div id="{{ page.menu }}" class="pad-section">
+  <div class="container">
+    <h2>{{ page.title }}</h2>
+    <br>
+      <div class="row">
+        <div class="col-sm-12">
+         {{ page.content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /{{ page.menu }} section -->
 {% endblock %}

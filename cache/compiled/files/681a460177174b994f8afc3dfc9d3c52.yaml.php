@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'themes://bootgrav-custom/bootgrav-custom.yaml',
-    'modified' => 1471010637,
+    'modified' => 1471733123,
     'data' => [
         'streams' => [
             'schemes' => [

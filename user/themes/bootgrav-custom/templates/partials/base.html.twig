@@ -46,12 +46,10 @@
 <body>
 
 {% include 'partials/navigation.html.twig' %}
+{% include 'partials/jumbo.html.twig' %}
 
-
-<div class="container marketing">
-    {% block content %}
-    {% endblock %}
-</div>
+{% block content %}
+{% endblock %}
 
 <div class="footer">
     <div class="container">
