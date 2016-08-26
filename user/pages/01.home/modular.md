@@ -1,8 +1,7 @@
 ---
-title: Hello
+title: Home
 menu: Home
-onpage_menu: true
-body_classes: "modular header-image fullwidth"
+spy_items: 'classes children info'
 content:
     items: '@self.modular'
     order:

@@ -1,18 +1,18 @@
 
 <!-- panels - {{ page.menu }} -->
-<div id="{{ page.menu }}" class="pad-section">
+<div id="{{ page.menu }}" class="pad-section bg-light">
 	<div class="container">
-    	<h2>{{ page.title }}</h2>
-    	<br>
+		<h2>{{ page.title }}</h2>
+		<br>
 		<div class="row">
 			{% for column in page.content|split('<hr />') %}
 			    <div class="col-sm-4">
 			    	<div class="panel panel-default">
 			    		<div class="panel-heading">
-			    			<h3 class="panel-title">Panel title</h3>
+			    			<h3 class="panel-title">{{ column|split('==')[1]|trim }}</h3>
 			    		</div>
 			    		<div class="panel-body">
-        					{{ column }}
+        					{{ column|split('==')[2]|trim }}
 						</div>
 					</div>
 				</div>

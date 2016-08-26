@@ -10,7 +10,12 @@ html, body {
   font-family: 'verdana';
 }
 
-h1, h2, h3 {
+body {
+  position: relative;
+  font-size: 16px;
+}
+
+h1, h2 {
   font-family: 'adler';
   font-size: 2.5em;
   text-transform: capitalize;
@@ -65,7 +70,7 @@ h1 {
 
 /* additional sections */
 #home {
-  background: url('../../../../images/bg2.jpg');
+  background: url('../images/bg2.jpg');
   background-attachment: fixed;
   background-position: left;
   background-repeat: no-repeat;
@@ -91,18 +96,27 @@ h1 {
   padding: 0px 5px 1px 5px;
 }
 
-
-#history {
-  /*background: url('/static/img/corfuall.jpg') no-repeat center center fixed;*/
-  background-color: #195819;
-  color: #ffffff;
-  /*background-size: cover;
-  text-align: justify;*/
+#pre-footer {
+  background: url('../images/footer.jpg');
+  background-attachment: fixed;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  /*padding-top: 200px;
+  display: table;
+  position: relative;
+  width: 100%;*/
+  height: 300px;
 }
-#history h2 {
-  color: #ffffff;
-  font-family: 'zing_easyregular';
-  font-size: 4.0em;
+
+.bg-dark {
+  background-color: #ae9356;
+}
+.bg-light {
+  background-color: #d0c29d;
 }
 
 #information .panel {
@@ -113,14 +127,8 @@ h1 {
   height: 500px;
 }
 
-footer {
+.footer {
   padding: 20px 0;
-}
-footer .glyphicon {
-  color: #333333;
-  font-size: 60px;
-}
-footer .glyphicon:hover {
-  color: #306d9f;
+  background-color: #cccccc;
 }
 

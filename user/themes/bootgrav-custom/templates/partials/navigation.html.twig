@@ -10,7 +10,7 @@
       	<span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="#">
-        <img alt="Brand" src="{{ base_url }}/images/negaca_logo_sm.png" height="75">
+        <img alt="Brand" src="{{ url("theme://images/negaca_logo_sm.png") }}" height="75">
       </a>
     </div>
 
@@ -19,7 +19,12 @@
   	    {% for page in pages.children %}
   		    {% if page.visible %}
   		      {% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
-  		        <li class="{{ current_page }}"><a href="{{ page.url }}">{{ page.menu|capitalize }}</a></li>
+		        <li class="{{ current_page }}"><a href="{% if current_page %}#home{% else %}{{ page.url }}{% endif %}">{{ page.menu|capitalize }}</a></li>
+            {% if current_page and page.header.spy_items|count > 0 %}
+            {% for item in page.header.spy_items|split(' ') %}
+              <li class="small"><a href="#{{ item }}">{{ item|capitalize }}</a></li>
+              {% endfor %}
+            {% endif %}
   		    {% endif %}
   	    {% endfor %}
       </ul>
