@@ -12,9 +12,9 @@ menu: children
 * Children Class (11 to 15 years)<br>
 7 - 7:45pm, £4
 
-28th Scout Hut,
+[***28th Scout Hut***  
 Flamesteed Road,
-Cambridge, CB1 3QU
+Cambridge, CB1 3QU](https://goo.gl/maps/wSZbnx9icyn)
 
 ---
 
@@ -24,10 +24,9 @@ Cambridge, CB1 3QU
 * Children Class (6 to 12 years)<br>
 6:30  - 7:15pm, £4
 
-Golden Acre Community Centre,
+[***Golden Acre Community Centre***  
 Long Horse Croft,
-Saffron Walden,
-Essex, CB11 4BL
+Saffron Walden, CB11 4BL](https://goo.gl/maps/74EXohV3jAK2)
 
 ---
 

@@ -27,3 +27,10 @@ To contribute your changes back to the main repository:
 * In GitHub Desktop click on "Pull Request" on the top right
 * Make a Pull Request with your commits
 
+### Installing resources
+
+    curl -sS https://getcomposer.org/installer | php56
+    php56 /home/kanterakis/composer.phar install
+
+This will create the `vendor` directory with all php dependencies
+
