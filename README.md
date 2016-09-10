@@ -2,7 +2,30 @@
 
 ## For administrators
 
-Pending
+### Making a new page
+
+You can either add a simple page with information, links and images (`Default`) or a page made up of snippets (`Modular`).
+
+There are two types of modules used:
+
+* Section - just a titled section with a blank background
+* Panels - a section showing up as panels on a brown background
+
+
+### The menu
+
+A page has a `title` and a `menu` title which can be different, e.g.:
+
+    title: 'About Negaça'
+    menu: about
+
+#### Scrollspy
+
+If your page contains sections you would like to appear on the menu, you need to define them in the page header as such, e.g.:
+
+    title: Home
+    menu: Home
+    spy_items: 'classes children info'
 
 ## For developers
 
@@ -52,4 +75,8 @@ and then do
 You can use the installed css in your twig templates as, e.g.
 
     {% do assets.add('theme://bower/bootstrap-social/bootstrap-social.css',100) %}
+
+### Snippets used
+
+* [social icons](http://bootsnipp.com/snippets/3kQrB)
 
