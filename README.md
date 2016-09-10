@@ -30,7 +30,26 @@ To contribute your changes back to the main repository:
 ### Installing resources
 
     curl -sS https://getcomposer.org/installer | php56
-    php56 /home/kanterakis/composer.phar install
+    php56 bin/composer.phar install
 
 This will create the `vendor` directory with all php dependencies
+
+You may also have to run
+
+    bin/grav install
+
+
+#### Adding external css
+
+You can use `bower` in the custom theme to add external css to the site. Add you dependency in
+
+    user/themes/bootgrav-custom/bower.json
+
+and then do
+
+    bower install
+
+You can use the installed css in your twig templates as, e.g.
+
+    {% do assets.add('theme://bower/bootstrap-social/bootstrap-social.css',100) %}
 

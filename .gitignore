@@ -3,3 +3,5 @@ logs/*
 backup/*
 vendor/*
 images/*
+assets/*
+tmp/*
