@@ -53,7 +53,7 @@ To contribute your changes back to the main repository:
 ### Installing resources
 
     curl -sS https://getcomposer.org/installer | php56
-    php56 bin/composer.phar install
+    php56 bin/composer.phar install --no-dev -o
 
 This will create the `vendor` directory with all php dependencies
 
