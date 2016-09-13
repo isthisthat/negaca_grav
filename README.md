@@ -60,6 +60,7 @@ This will create the `vendor` directory with all php dependencies
 You may also have to run
 
     bin/grav install
+    git clean -xfd
 
 
 #### Adding external css

@@ -1,0 +1,11 @@
+email: manuela.menchi+negaca@gmail.com
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+fullname: Negaca-Coelhinha
+title: Administrator
+state: enabled
+hashed_password: $2y$10$5SZ9.H6XAIJiSffTlg1cReF1dU87FQ9ZlgNdASCCiW/yrMfJfcrga

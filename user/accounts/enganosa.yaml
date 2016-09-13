@@ -1,0 +1,11 @@
+email: enganosa.gnc@gmail.com
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+fullname: Negaca-Enganosa
+title: Administrator
+state: enabled
+hashed_password: $2y$10$vgLZi0ENbaf52O09HSEfZuq1NeZERrehIs17oTLhOk2eJzvViWTDq
