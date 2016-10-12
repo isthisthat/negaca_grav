@@ -38,6 +38,15 @@ h2 {
 }*/
 
 
+/* GALLERY */
+.gallery
+{
+    display: inline-block;
+    margin-top: 20px;
+}
+/* /GALLERY */
+
+
 @font-face {
     font-family: 'ginga';
     src: url('../fonts/Ginga.ttf') format('truetype');

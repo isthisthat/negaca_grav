@@ -1,0 +1,23 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+    {{ page.content }}
+
+<div id="{{ page.menu }}" class="pad-section">
+    <div class="container">
+        <h2>{{ page.title }}</h2>
+        <div class="row">
+            <div class='list-group gallery'>
+                {% for image in page.media.images %}
+                <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                    <a class="thumbnail fancybox" rel="ligthbox" href="{{ image.url }}">
+                        {{ image.cropZoom(300,300).html('Grupo Negaça Capoeira Photo','Grupo Negaça Capoeira Photo','img-responsive') }}
+                    </a>
+                </div> <!-- col-6 / end -->
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

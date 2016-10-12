@@ -2,6 +2,7 @@
     "name":  "negaca_grav",
     "version": "0.0.1",
     "dependencies": {
-        "bootstrap-social": "latest"
+        "bootstrap-social": "latest",
+        "fancybox": "latest"
     }
 }

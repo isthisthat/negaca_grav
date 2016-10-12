@@ -80,4 +80,5 @@ You can use the installed css in your twig templates as, e.g.
 ### Snippets used
 
 * [social icons](http://bootsnipp.com/snippets/3kQrB)
+* [fancybox](http://bootsnipp.com/snippets/featured/image-gallery-with-fancybox)
 
