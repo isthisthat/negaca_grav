@@ -1,5 +1,6 @@
 ---
 title: 'Class Schedule - Children'
+textformatter: false
 menu: children
 ---
 
@@ -38,7 +39,7 @@ Saffron Walden, CB11 4BL](https://goo.gl/maps/74EXohV3jAK2)
 
 ### Friday
 * Children Class (6 to 12 years)  
-6-7pm, £TBD
+6-7pm, £4
 
 [***Stapleford Pavillion***  
 69 Gog Magog Way, Cambridge CB22 5BQ](https://goo.gl/maps/Xyjnr2stctC2)

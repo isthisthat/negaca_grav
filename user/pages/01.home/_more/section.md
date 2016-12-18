@@ -3,7 +3,8 @@ title: 'More info'
 menu: info
 ---
 
-Beginners are very welcome at any General Level Class for Adults and Children. Classes for all ages. 
+Adult beginners are very welcome to join and from January 2017 a new dedicated class has been added to our schedule and is run by Mestre Chitaozinho. 
+Classes for all ages. 
 Please turn up on time to class to ensure you get a full warm up and avoid any risk of injury.
 Uniform recommended after a month of regular training.
 

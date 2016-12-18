@@ -1,5 +1,6 @@
 ---
 title: 'Class schedule - Adults'
+textformatter: false
 menu: classes
 ---
 
@@ -14,8 +15,11 @@ Campkin Rd,
 Cambridge, CB4 2LD](https://goo.gl/maps/AvNBaHoSN8t)
 
 ### Thursday
+* Beginners Level Class Adults<br>
+6:30 - 7:30 pm, £6
+
 * General Level Class Adults<br>
-7 - 8:30 pm, £6
+7:45 - 9:15 pm, £6
 
 [***28th Scout Hut***  
 Flamesteed Road,
