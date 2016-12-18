@@ -62,6 +62,10 @@ You may also have to run
     bin/grav install
     git clean -xfd
 
+To update GRAV and plugins run:
+
+    php56 bin/grav self-upgrade
+    php56 bin/grav install
 
 #### Adding external css
 
@@ -80,4 +84,5 @@ You can use the installed css in your twig templates as, e.g.
 ### Snippets used
 
 * [social icons](http://bootsnipp.com/snippets/3kQrB)
+* [fancybox](http://bootsnipp.com/snippets/featured/image-gallery-with-fancybox)
 
