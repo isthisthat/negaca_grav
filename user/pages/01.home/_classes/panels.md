@@ -16,10 +16,10 @@ Cambridge, CB4 2LD](https://goo.gl/maps/AvNBaHoSN8t)
 
 ### Thursday
 * Beginners Level Class Adults<br>
-6:30 - 7:30 pm, £6
+6:30 - 7:20 pm, £6
 
 * General Level Class Adults<br>
-7:45 - 9:15 pm, £6
+7:30 - 9:00 pm, £6
 
 [***28th Scout Hut***  
 Flamesteed Road,

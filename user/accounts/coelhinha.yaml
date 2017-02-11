@@ -1,11 +1,12 @@
 email: manuela.gnc@gmail.com
 access:
   admin:
-    login: true
-    super: true
+    super: 'true'
+    login: 'true'
   site:
-    login: true
+    login: 'true'
 fullname: Negaca-Coelhinha
 title: Administrator
 state: enabled
-hashed_password: $2y$10$5SZ9.H6XAIJiSffTlg1cReF1dU87FQ9ZlgNdASCCiW/yrMfJfcrga
+hashed_password: $2y$10$9cdbL9bS4C4letillLIPLueZ8C69arT04/BYOW9wgnhhLqvdpXL.O
+language: en
