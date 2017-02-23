@@ -1,11 +1,13 @@
 {% extends 'partials/base.html.twig' %}
 
 {% block content %}
-    {{ page.content }}
 
 <div id="{{ page.menu }}" class="pad-section">
     <div class="container">
         <h2>{{ page.title }}</h2>
+        
+        {{ page.content }}
+        
         <div class="row">
             <div class='list-group gallery'>
                 {% for image in page.media.images %}

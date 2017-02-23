@@ -1,0 +1,51 @@
+{% set paypal = '
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<p class="lead">Purchase tickets!</p>
+					</div>
+					<div class="panel-body">
+						<form class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+							<input type="hidden" name="cmd" value="_s-xclick">
+							<input type="hidden" name="hosted_button_id" value="6NKEGPY39PD5E">
+							<input type="hidden" name="currency_code" value="GBP">
+							<div class="form-group">
+								<label for="os0" class="col-sm-4 control-label">Select Ticket</label>
+								<div class="col-sm-8">
+									<select class="form-control" name="os0" id="os0">
+										<option value="Early bird weekend">Early bird weekend £55.00 GBP</option>
+										<option value="Regular weekend" disabled>Regular weekend £70.00 GBP</option>
+										<option value="Regular one day" disabled>Regular one day £55.00 GBP</option>
+										<option value="At the door weekend" disabled>At the door weekend £80.00 GBP</option>
+										<option value="At the door one day" disabled>At the door one day £60.00 GBP</option>
+									</select>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="os1" class="col-sm-4 control-label">Name and Group</label>
+								<div class="col-sm-8">
+									<input type="text" name="os1" id="os1" class="form-control" maxlength="200" placeholder="Name, Group">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="os2" class="col-sm-4 control-label"> </label>
+								<div class="col-sm-8">
+									<input type="image" id="os2" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+									<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+								</div>
+							</div>
+						</form>
+					</div> <!-- panel body -->
+				</div> <!-- panel -->
+			</div> <!-- col -->
+		</div> <!-- row -->
+' %}
+
+<div id="info" class="pad-section">
+    <div class="container">
+        <h2>{{ page.title }}</h2>
+		{{ page.content|replace({'%paypal%':paypal}) }}
+	</div>
+</div>
+
