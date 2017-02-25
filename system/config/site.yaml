@@ -2,13 +2,13 @@ title: Grav                                 # Name of the site
 default_lang: en                            # Default language for site (potentially used by theme)
 
 author:
-  name: John Appleseed                      # Default author name
-  email: 'john@email.com'                   # Default author email
+  name: Stathis Kanterakis                      # Default author name
+  email: 'negaca@capoeiracambridge.co.uk'                   # Default author email
 
 taxonomies: [category,tag]                  # Arbitrary list of taxonomy types
 
 metadata:
-  description: 'My Grav Site'               # Site description
+  description: 'Groupo Negaca Capoeira, martial arts club in Cambridge, Saffron Walden, Stapleford. By the founder of Negaça in Brazil Mestre Chitaozinho. Classes for adults and children, beginners and advanced. Capoeira Angola and Regional. Contact us at negaca@capoeiracambridge.co.uk'               # Site description
 
 summary:
   enabled: true                             # enable or disable summary of page

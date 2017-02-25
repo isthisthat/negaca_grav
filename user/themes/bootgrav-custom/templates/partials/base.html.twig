@@ -2,16 +2,21 @@
 <html lang="en">
 <head>
     {% block head %}
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         {% if header.description %}
-            <meta name="description" content="{{ header.description }}">
+            <meta name="description" content="{{ header.description }}" />
         {% else %}
-            <meta name="description" content="{{ site.description }}">
+            <meta name="description" content="{{ site.description }}" />
         {% endif %}
         {% if header.robots %}
-            <meta name="robots" content="{{ header.robots }}">
+            <meta name="robots" content="{{ header.robots }}" />
+        {% endif %}
+        {% if header.keywords %}
+            <meta name="keywords" content="{{ header.keywords }}" />
+        {% else %}
+            <meta name="keywords" content="{{ site.keywords }}" />
         {% endif %}
 
         <title>{% if header.title %}{{ header.title }} | {% endif %}{{ site.title }}</title>
@@ -62,6 +67,7 @@
 <div class="footer">
     <div class="container">
         <p class="text-muted text-center">&copy; 2016 Grupo Negaça Capoeira. Contact <a href="mailto:negaca@capoeiracambridge.co.uk">negaca@capoeiracambridge.co.uk</a></p>
+        <center><h3>{% include 'partials/social.html.twig' %}</h3></center>
     </div>
 </div>
 </body>
