@@ -6,40 +6,35 @@ menu: schedule
 
 ==Friday==
 
-### Tuesday
-* General Level Class Adults<br>
-7 - 8:00 pm, £5
+### Golden Acre Community Centre
+[69-94 Long Horse Croft,
+Saffron Walden CB11 4BL](https://goo.gl/maps/81NBYDZGMbJ2)
+* 10am - 4pm
 
-[***Arbury Community Centre***  
-Campkin Rd,
-Cambridge, CB4 2LD](https://goo.gl/maps/AvNBaHoSN8t)
-
-==contact <a href="negaca@capoeiracambridge.co.uk">Negaça</a>==
+==<a href="#info">book now</a>==
 
 ---
 
 ==Saturday==
 
-### Tuesday
-* General Level Class Adults<br>
-7 - 8:00 pm, £5
+### Chesterton Sports Centre
+[Gilbert Road,
+Cambridge, CB4 3NY](https://goo.gl/maps/Zp3w3X9Xhs32)
+* 10am - 4pm
 
-[***Arbury Community Centre***  
-Campkin Rd,
-Cambridge, CB4 2LD](https://goo.gl/maps/AvNBaHoSN8t)
+### GNC Brazilian Party!
+location TBD
+* 8pm - 12am
 
-==contact <a href="negaca@capoeiracambridge.co.uk">Negaça</a>==
+==<a href="#info">book now</a>==
 
 ---
 
 ==Sunday==
 
-### Tuesday
-* General Level Class Adults<br>
-7 - 8:00 pm, £5
+### Chesterton Sports Centre
+[Gilbert Road,
+Cambridge, CB4 3NY](https://goo.gl/maps/Zp3w3X9Xhs32)
+* 11am - 3pm
 
-[***Arbury Community Centre***  
-Campkin Rd,
-Cambridge, CB4 2LD](https://goo.gl/maps/AvNBaHoSN8t)
-
-==contact <a href="negaca@capoeiracambridge.co.uk">Negaça</a>==
+==<a href="#info">book now</a>==

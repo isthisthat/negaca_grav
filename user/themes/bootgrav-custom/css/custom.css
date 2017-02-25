@@ -59,6 +59,12 @@ h2 {
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'bauhaus';
+    src: url('../fonts/BAUHS93.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 @media all and (max-width: 500px) { /* screen size until 500px */
     h1 {
@@ -93,6 +99,15 @@ h2 {
 }
 
 /* additional sections */
+.jumbo {
+  padding-top: 100px;
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-size: 2.0em;
+}
+
 #home {
   background: url('../images/bg2.jpg');
   background-attachment: fixed;
@@ -102,12 +117,6 @@ h2 {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  padding-top: 100px;
-  display: table;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  font-size: 2.0em;
 }
 
 #home h1 {

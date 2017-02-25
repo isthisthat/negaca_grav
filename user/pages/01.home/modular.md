@@ -6,7 +6,7 @@ content:
         by: default
         dir: asc
         custom:
-            - _jumbo
+            - _home
             - _announcements
             - _classes
             - _classes-children

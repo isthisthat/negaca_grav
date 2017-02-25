@@ -1,0 +1,19 @@
+
+<!-- jumbo section - {{ page.menu }} -->
+<div id="{{ page.menu }}" class="jumbo" style="
+  background: url('{{ page.media.images|first.url() }}');
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+">
+    <div class="container text-vcenter">
+        <div class="text-left col-sm-offset-2 col-sm-8">
+            {{ page.content }}
+        </div>
+    </div>
+</div>
+<!-- /{{ page.menu }} -->
