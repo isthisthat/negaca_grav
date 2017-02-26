@@ -18,13 +18,14 @@
       <ul class="nav navbar-nav navbar-right">
   	    {% for page in pages.children %}
   		    {% if page.visible %}
-  		      {% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
-		        <li class="{{ current_page }}"><a href="{% if current_page %}#home{% else %}{{ page.url }}{% endif %}">{{ page.menu|capitalize }}</a></li>
-            {% if current_page and page.header.spy_items|count > 0 %}
-            {% for item in page.header.spy_items|split(' ') %}
-              <li class="small"><a href="#{{ item }}">{{ item|capitalize }}</a></li>
-              {% endfor %}
-            {% endif %}
+  		        {% set active = (page.active or page.activeChild) ? 'active' : '' %}
+                {% set children = page.header.spy_items|count > 0 %}
+		        <li class="{{ active }}"><a href="{% if active %}#home{% else %}{{ page.url }}{% endif %}">{{ page.menu|capitalize }}{% if active and children %} <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>{% endif %}</a></li>
+                {% if active and children %}
+                    {% for item in page.header.spy_items|split(' ') %}
+                        <li class="small italic"><a href="#{{ item }}">&nbsp;{{ item|capitalize }}&nbsp;</a></li>
+                    {% endfor %}
+                {% endif %}
   		    {% endif %}
   	    {% endfor %}
       </ul>

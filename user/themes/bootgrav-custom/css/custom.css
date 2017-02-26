@@ -28,6 +28,9 @@ h2 {
   font-size: 2.5em;
 }
 
+.italic {
+    font-style: italic;
+}
 
 /* padded section */
 .pad-section {
