@@ -7,21 +7,21 @@ menu: classes
 ==Cambridge==
 
 ### Tuesday
-* General Level Class Adults<br>
+* General Level Class Adults  
 7 - 8:00 pm, £5
 
-[***Arbury Community Centre***  
+[**Arbury Community Centre**  
 Campkin Rd,
 Cambridge, CB4 2LD](https://goo.gl/maps/AvNBaHoSN8t)
 
 ### Thursday
-* Beginners Level Class Adults<br>
+* Beginners Level Class Adults  
 6:30 - 7:20 pm, £6
 
-* General Level Class Adults<br>
+* General Level Class Adults  
 7:30 - 9:00 pm, £6
 
-[***28th Scout Hut***  
+[**28th Scout Hut**  
 Flamesteed Road,
 Cambridge, CB1 3QU](https://goo.gl/maps/wSZbnx9icyn)
 
