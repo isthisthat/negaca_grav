@@ -1,0 +1,6 @@
+assets:
+    css_pipeline: true
+    js_pipeline: true
+errors:
+  display: false
+  log: true

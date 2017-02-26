@@ -1,0 +1,18 @@
+debugger:
+    enabled: true
+cache:
+  enabled: false
+twig:
+  cache: false
+  debug: true
+errors:
+  display: true
+  log: true
+assets:                                     # Configuration for Assets Manager (JS, CSS)
+  css_pipeline: false                       # The CSS pipeline is the unification of multiple CSS resources into one file
+  css_pipeline_include_externals: false      # Include external URLs in the pipeline by default
+  css_pipeline_before_excludes: false        # Render the pipeline before any excluded files
+  css_minify: false                          # Minify the CSS during pipelining
+  css_minify_windows: false                 # Minify Override for Windows platforms. False by default due to ThreadStackSize
+  css_rewrite: false                         # Rewrite any CSS relative URLs during pipelining
+  js_pipeline: false                        # The JS pipeline is the unification of multiple JS resources into one file
