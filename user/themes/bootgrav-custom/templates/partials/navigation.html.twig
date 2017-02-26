@@ -20,7 +20,7 @@
   		    {% if page.visible %}
   		        {% set active = (page.active or page.activeChild) ? 'active' : '' %}
                 {% set children = page.header.spy_items|count > 0 %}
-		        <li class="{{ active }}"><a href="{% if active %}#home{% else %}{{ page.url }}{% endif %}">{{ page.menu|capitalize }}{% if active and children %} <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>{% endif %}</a></li>
+		        <li class="{{ active }}"><a href="{% if active %}#top{% else %}{{ page.url }}{% endif %}">{{ page.menu|capitalize }}{% if active and children %} <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>{% endif %}</a></li>
                 {% if active and children %}
                     {% for item in page.header.spy_items|split(' ') %}
                         <li class="small italic"><a href="#{{ item }}">&nbsp;{{ item|capitalize }}&nbsp;</a></li>

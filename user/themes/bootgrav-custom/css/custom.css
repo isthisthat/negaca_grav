@@ -126,23 +126,12 @@ h2 {
   font-size: 2.0em;
 }
 
-#home {
-  background: url('../images/bg2.jpg');
-  background-attachment: fixed;
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
-
-#home h1 {
+#top h1 {
   color: #fff;
   text-shadow: 4px 4px 4px #000;
 }
 
-#home span {
+#top span {
   background-color: white;
   padding: 0px 5px 1px 5px;
 }

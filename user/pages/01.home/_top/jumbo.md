@@ -1,6 +1,6 @@
 ---
-title: Home
-menu: home
+title: top
+menu: top
 ---
 
 please don't modify this!

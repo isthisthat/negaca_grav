@@ -6,11 +6,14 @@
 
 You can either add a simple page with information, links and images (`Default`) or a page made up of snippets (`Modular`).
 
-There are two types of modules used:
+There are several types of modular sections:
 
 * Section - just a titled section with a blank background
 * Panels - a section showing up as panels on a brown background
+* Jumbo - when you drop an image to this page, it will become a nice background (recommended size: 1440x960)
+* People - images (recommended size: 200x200) become circular sepia portraits and the name is used as a title
 
+NOTE: the first modular needs to be called `top` for the menu to work correctly
 
 ### The menu
 

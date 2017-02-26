@@ -6,7 +6,7 @@ content:
         by: default
         dir: asc
         custom:
-            - _jumbo_batizado
+            - _top
             - _info
             - _schedule
             - _guests
