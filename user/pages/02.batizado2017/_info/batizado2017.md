@@ -1,6 +1,6 @@
 ---
 title: 'Grupo Negaça Batizado 2017'
-menu: 'info'
+menu: info
 ---
 
 Register below for the 9th Batizado and Troca de Cordões of Grupo Negaça Capoeira UK of Mestre Chitaozinho and his students on the weekend 2-4 June 2017. **Book before April 15th for a special discount!!**
@@ -29,7 +29,7 @@ Register below for the 9th Batizado and Troca de Cordões of Grupo Negaça Capoe
 * Instrutora Lika, Grupo Negaça Capoeira, Canindé, Brasil
 
 ###Workshops:
-This year, besides capoeira, out talented teachers and guests will give **maculele, afro-brazilian dance and music** workshops!
+This year, besides capoeira, our talented teachers and guests will give **Maculele, Afro-Brazilian dance and music** workshops!
 
 There will also be a raffle for a very special item and a new book presentation by Mestre Chitãozinho.
 
