@@ -12,6 +12,9 @@
 ">
     <div class="container text-vcenter">
         <div class="col-sm-offset-2 col-sm-8">
+            {% if uri.param('success') %}
+                <div class="alert alert-success" role="alert">Thank you for your purchase! See you at the batizado. Muito Axé!</div>
+            {% endif %}
             <div class="batizado">{{ page.content }}<br></div>
         </div>
     </div>

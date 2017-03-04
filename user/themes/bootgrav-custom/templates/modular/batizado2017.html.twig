@@ -5,8 +5,10 @@
 					<div class="panel-heading">
 						<h3>Purchase tickets!</h3>
 					</div>
-					<div class="panel-body">
+					<div class="panel-body" id="payment">
 						<form class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                            <input type="hidden" name="on0" value="Select ticket">
+                            <input type="hidden" name="on1" value="Name and Group">
 							<input type="hidden" name="cmd" value="_s-xclick">
 							<input type="hidden" name="hosted_button_id" value="6NKEGPY39PD5E">
 							<input type="hidden" name="currency_code" value="GBP">
@@ -14,11 +16,11 @@
 								<label for="os0" class="col-sm-4 control-label">Select Ticket</label>
 								<div class="col-sm-8">
 									<select class="form-control" name="os0" id="os0">
-										<option value="Guest - Early bird 3 days -">Guest - Early bird 3 days - £65.00 GBP</option>
-										<option value="Guest - Saturday only -">Guest - Friday only - £15.00 GBP</option>
-										<option value="Guest - Saturday only -">Guest - Saturday only - £50.00 GBP</option>
-										<option value="Guest - Sunday only -">Guest - Sunday only - £35.00 GBP</option>
-										<option value="Guest - Regular 3 days -" disabled>Guest - Regular 3 days - £80.00 GBP</option>
+                                        <option value="Guest - Early bird 3 days -">Guest - Early bird 3 days - £65.00 GBP</option>
+                                        <option value="Guest - Friday only -">Guest - Friday only - £15.00 GBP</option>
+                                        <option value="Guest - Saturday only -">Guest - Saturday only - £50.00 GBP</option>
+                                        <option value="Guest - Sunday only -">Guest - Sunday only - £35.00 GBP</option>
+                                        <option value="Guest - Regular 3 days -" disabled>Guest - Regular 3 days - £80.00 GBP</option>
 									</select>
 								</div>
 							</div>
