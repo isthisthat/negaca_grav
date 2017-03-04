@@ -7,10 +7,10 @@ menu: schedule
 ==Friday, 2<sup>nd</sup> June 2017==
 
 ### Welcome Roda & mini workshops
-[**Golden Acre Community Centre**  
-69-94 Long Horse Croft,
-Saffron Walden CB11 4BL](https://goo.gl/maps/81NBYDZGMbJ2)
-* 10am - 4pm
+[**Friends Meeting House**  
+High Street,
+Saffron Walden CB10 1AA](https://goo.gl/maps/ZbdbEa5657B2)
+* 6:30pm - 9:30pm
 
 ==<a href="#info">book now</a>==
 
@@ -25,11 +25,15 @@ Cambridge, CB4 3NY](https://goo.gl/maps/Zp3w3X9Xhs32)
 * 10am - 4pm
 
 ### Hot buffet, raffle & book presentation
-location **TBD**
-* 5pm - 8pm
+[**Arbury Community Centre**  
+Campkin Rd,
+Cambridge, CB4 2LD](https://goo.gl/maps/hJyerpjLe1A2)
+* 6pm - 8pm
 
 ### GNC Brazilian Party!
-location **TBD**
+[**Arbury Community Centre**  
+Campkin Rd,
+Cambridge, CB4 2LD](https://goo.gl/maps/hJyerpjLe1A2)
 * 8pm - 12am
 
 ==<a href="#info">book now</a>==
