@@ -28,4 +28,8 @@ $(document).ready(function() {
         closeEffect: "none"
     });
 
+// POPOVER
+
+    $('#popover-help').popover();
+
 });
