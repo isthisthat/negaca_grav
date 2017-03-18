@@ -1,3 +1,15 @@
+# v2.2.3
+## 03/04/2017
+
+1. [](#bugfix)
+    * Fixed a `z-index` issue in `AccordionShortcode`
+    
+# v2.2.2
+## 03/04/2017
+
+1. [](#bugfix)
+    * Renamed `AccordionShortcode` to avoid conflict with `GravStrap` plugin.
+
 # v2.2.1
 ## 03/03/2017
 
