@@ -89,3 +89,13 @@ You can use the installed css in your twig templates as, e.g.
 * [social icons](http://bootsnipp.com/snippets/3kQrB)
 * [fancybox](http://bootsnipp.com/snippets/featured/image-gallery-with-fancybox)
 
+### User management
+
+Make a new user:
+
+    php56 ./bin/plugin login newuser
+
+Change a password:
+
+    php56 ./bin/plugin login newpass
+

@@ -23,6 +23,7 @@ Register below for the 9th Batizado and Troca de Cordões of Grupo Negaça Capoe
 * Mestre Olho de Gato, Grupo Negaça Capoeira, Canindé, Brasil
 * Contramestre Boneco, Menino Quem Foi Seu Mestre, Brighton, UK
 * Contramestre Hiram, Capoeira Club London, UK
+* Contramestre Pirulito, CDO Bordeaux, France
 * Professora Joyce, CDO Birmingham, UK
 * Professor Mascote, CDO Birmingham, UK
 * Professor Coisado, Grupo Negaça Capoeira, Canindé, Brasil

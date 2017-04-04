@@ -10,7 +10,7 @@ This page contains payment information about the Grupo Negaça Capoeira Batizado
 
 ## About the Negaça Batizado
 
-Thank you all for being part of the Negaça family, for supporting our group, for helping it grow and for putting your energy and enthusiasm into every session. Learning capoeira means keeping this wonderful art alive and sharing your ideas and self-expression with the world as much as learning from it. The Batizado (literally meaning "baptism") is an annual event where new students get their first belt and regular students change to a higher belt. For that, a student is usually asked to play in the capoeira roda with masters and experienced capoeiristas in order to demonstrate his or her progress.
+Thank you all for being part of the Negaça family, for supporting our group, for helping it grow and for putting your energy and enthusiasm into every session. Learning capoeira means keeping this wonderful art alive and sharing your ideas and self-expression with the world as much as learning from it. The Batizado e Troca de Cordões (literally meaning "baptism and change of belts") is an annual event where new students get their first belt and regular students change to a higher belt. For that, a student is usually asked to play in the capoeira roda with masters and experienced capoeiristas in order to demonstrate his or her progress.
 
 The Batizado is a time when we invite students and teachers from around the world to share cultures and create unique moments to remember. To allow for an event of such scale, a lot of people have been working hard for months and even years, to bridge connections with other capoeira groups, to collect the money required for covering expenses for teachers and venues, for advertising and for making sure this is as rich an exprience as it can possibly be. It is worth noting that this is not a business, it's all on a voluntary basis and if we didn't do it, this opportunity would not exist. Success means that everyone has enjoyed themselves, they've learned a lot, they have challenged themselves and are ready to do it all again!
 
@@ -58,4 +58,10 @@ Children under the age of 13 have the following grade system and prices:
 
 
 ### Student Payment
+
+Instructions:  
+1. Ask your teacher whether you're due a new belt this year. Your teacher will tell you your new level.
+2. Identify your level in the drop-down, or choose "not getting a belt".
+3. Choose your training location from the drop-down: Cambridge, Saffron Walden or Stapleford.
+4. Enter the student's name and complete your payment. If you're a parent paying for multiple children, please repeat the process for each child.
 
