@@ -1,101 +1,194 @@
-# Negaça Website
+# ![](https://avatars1.githubusercontent.com/u/8237355?v=2&s=50) Grav
 
-## For administrators
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/cfd20465-d0f8-4a0a-8444-467f5b5f16ad/mini.png)](https://insight.sensiolabs.com/projects/cfd20465-d0f8-4a0a-8444-467f5b5f16ad) [![Slack](https://grav-chat.now.sh/badge.svg)](https://chat.getgrav.org) [![Build Status](https://travis-ci.org/getgrav/grav.svg?branch=develop)](https://travis-ci.org/getgrav/grav) [![OpenCollective](https://opencollective.com/grav/backers/badge.svg)](#backers) [![OpenCollective](https://opencollective.com/grav/sponsors/badge.svg)](#sponsors)
 
-### Making a new page
+Grav is a **Fast**, **Simple**, and **Flexible**, file-based Web-platform.  There is **Zero** installation required.  Just extract the ZIP archive, and you are already up and running.  It follows similar principles to other flat-file CMS platforms, but has a different design philosophy than most. Grav comes with a powerful **Package Management System** to allow for simple installation and upgrading of plugins and themes, as well as simple updating of Grav itself.
 
-You can either add a simple page with information, links and images (`Default`) or a page made up of snippets (`Modular`).
+The underlying architecture of Grav is designed to use well-established and _best-in-class_ technologies to ensure that Grav is simple to use and easy to extend. Some of these key technologies include:
 
-There are several types of modular sections:
+* [Twig Templating](http://twig.sensiolabs.org/): for powerful control of the user interface
+* [Markdown](http://en.wikipedia.org/wiki/Markdown): for easy content creation
+* [YAML](http://yaml.org): for simple configuration
+* [Parsedown](http://parsedown.org/): for fast Markdown and Markdown Extra support
+* [Doctrine Cache](http://doctrine-orm.readthedocs.io/projects/doctrine-orm/en/latest/reference/caching.html): layer for performance
+* [Pimple Dependency Injection Container](http://pimple.sensiolabs.org/): for extensibility and maintainability
+* [Symfony Event Dispatcher](http://symfony.com/doc/current/components/event_dispatcher/introduction.html): for plugin event handling
+* [Symfony Console](http://symfony.com/doc/current/components/console/introduction.html): for CLI interface
+* [Gregwar Image Library](https://github.com/Gregwar/Image): for dynamic image manipulation
 
-* Section - just a titled section with a blank background
-* Panels - a section showing up as panels on a brown background
-* Jumbo - when you drop an image to this page, it will become a nice background (recommended size: 1440x960)
-* People - images (recommended size: 200x200) become circular sepia portraits and the name is used as a title
+# Requirements
 
-NOTE: the first modular needs to be called `top` for the menu to work correctly
+- PHP 5.5.9 or higher. Check the [required modules list](https://learn.getgrav.org/basics/requirements#php-requirements)
+- Check the [Apache](https://learn.getgrav.org/basics/requirements#apache-requirements) or [IIS](https://learn.getgrav.org/basics/requirements#iis-requirements) requirements
 
-### The menu
+# QuickStart
 
-A page has a `title` and a `menu` title which can be different, e.g.:
+These are the options to get Grav:
 
-    title: 'About Negaça'
-    menu: about
+### Downloading a Grav Package
 
-#### Scrollspy
+You can download a **ready-built** package from the [Downloads page on https://getgrav.org](https://getgrav.org/downloads)
 
-If your page contains sections you would like to appear on the menu, you need to define them in the page header as such, e.g.:
+### With Composer
 
-    title: Home
-    menu: Home
-    spy_items: 'classes children info'
+You can create a new project with the latest **stable** Grav release with the following command:
 
-## For developers
+```
+$ composer create-project getgrav/grav ~/webroot/grav
+```
 
-### Making changes to the code
+### From GitHub
 
-This website works with [Grav](https://getgrav.org/). The following instructions will guide you through making a proper versioned copy of this repository on your computer, making and viewing changes locally and suggesting them back to the original repository.
+1. Clone the Grav repository from [https://github.com/getgrav/grav]() to a folder in the webroot of your server, e.g. `~/webroot/grav`. Launch a **terminal** or **console** and navigate to the webroot folder:
+   ```
+   $ cd ~/webroot
+   $ git clone https://github.com/getgrav/grav.git
+   ```
 
-* If you don't have a GitHub account, [create one](https://github.com/join) first
-* Click on "Fork" on the top right. This will add a copy of the repository to your account for you to make changes.
-* Download [GitHub Desktop](https://desktop.github.com/)
-* Install and add GitHub Desktop to your Applications
-* Open GitHub Desktop and click on the GitHub Desktop menu > Preferences > Accounts > login to your github.com account
-* Click on the `+` button, click on the "Clone" tab and select "stathisforeva" (your forked version of this repository)
-* You now have a versioned copy of the website on your local computer! To start playing around, open Documents > workspace > negaca\_grav in your favourite editor and make changes
-* To see your changes, you need to install a local web server (e.g. Apache with PHP 5.5+). See [Grav's requirements](https://learn.getgrav.org/basics/requirements)
-* When you're happy with your changes, go back to GitHub Desktop, review your changes, write a summary of what you've done and click on "Commit to master"
+2. Install the **plugin** and **theme dependencies** by using the [Grav CLI application](https://learn.getgrav.org/advanced/grav-cli) `bin/grav`:
+   ```
+   $ cd ~/webroot/grav
+   $ bin/grav install
+   ```
 
-### To suggest changes back
+Check out the [install procedures](https://learn.getgrav.org/basics/installation) for more information.
 
-To contribute your changes back to the main repository:
+# Adding Functionality
 
-* In GitHub Desktop click on "Pull Request" on the top right
-* Make a Pull Request with your commits
+You can download [plugins](https://getgrav.org/downloads/plugins) or [themes](https://getgrav.org/downloads/themes) manually from the appropriate tab on the [Downloads page on https://getgrav.org](https://getgrav.org/downloads), but the preferred solution is to use the [Grav Package Manager](https://learn.getgrav.org/advanced/grav-gpm) or `GPM`:
 
-### Installing resources
+```
+$ bin/gpm index
+```
 
-    curl -sS https://getcomposer.org/installer | php56
-    php56 bin/composer.phar install --no-dev -o
+This will display all the available plugins and then you can install one or more with:
 
-This will create the `vendor` directory with all php dependencies
+```
+$ bin/gpm install <plugin/theme>
+```
 
-You may also have to run
+# Updating
 
-    git clean -xfd
-    php56 bin/grav install
+To update Grav you should use the [Grav Package Manager](https://learn.getgrav.org/advanced/grav-gpm) or `GPM`:
 
-To update GRAV and plugins run:
+```
+$ bin/gpm selfupgrade
+```
 
-    php56 bin/gpm selfupgrade -f
-    php56 bin/grav install
+To update plugins and themes:
 
-#### Adding external css
+```
+$ bin/gpm update
+```
 
-You can use `bower` in the custom theme to add external css to the site. Add you dependency in
 
-    user/themes/bootgrav-custom/bower.json
+# Contributing
+We appreciate any contribution to Grav, whether it is related to bugs, grammar, or simply a suggestion or improvement.
+However, we ask that any contributions follow our simple guidelines in order to be properly received.
 
-and then do
+All our projects follow the [GitFlow branching model][gitflow-model], from development to release. If you are not familiar with it, there are several guides and tutorials to make you understand what it is about.
 
-    bower install
+You will probably want to get started by installing [this very good collection of git extensions][gitflow-extensions].
 
-You can use the installed css in your twig templates as, e.g.
+What you mainly want to know is that:
 
-    {% do assets.add('theme://bower/bootstrap-social/bootstrap-social.css',100) %}
+- All the main activity happens in the `develop` branch. Any pull request should be addressed only to that branch. We will not consider pull requests made to the `master`.
+- It's very well appreciated, and highly suggested, to start a new feature whenever you want to make changes or add functionalities. It will make it much easier for us to just checkout your feature branch and test it, before merging it into `develop`
 
-### Snippets used
+# Getting Started
 
-* [social icons](http://bootsnipp.com/snippets/3kQrB)
-* [fancybox](http://bootsnipp.com/snippets/featured/image-gallery-with-fancybox)
+* [What is Grav?](https://learn.getgrav.org/basics/what-is-grav)
+* [Install](https://learn.getgrav.org/basics/installation) Grav in few seconds
+* Understand the [Configuration](https://learn.getgrav.org/basics/grav-configuration)
+* Take a peek at our available free [Skeletons](https://getgrav.org/downloads/skeletons)
+* If you have questions, jump on our [Slack Room](https://getgrav.org/slack)!
+* Have fun!
 
-### User management
+# Exploring More
 
-Make a new user:
+* Have a look at our [Basic Tutorial](https://learn.getgrav.org/basics/basic-tutorial)
+* Dive into more [advanced](https://learn.getgrav.org/advanced) functions
 
-    php56 ./bin/plugin login newuser
+# Backers
+Support us with a monthly donation and help us continue our activities. [[Become a backer](https://opencollective.com/grav#backer)]
 
-Change a password:
+<a href="https://opencollective.com/grav/backer/0/website" target="_blank"><img src="https://opencollective.com/grav/backer/0/avatar.svg"></a>
+<a href="https://opencollective.com/grav/backer/1/website" target="_blank"><img src="https://opencollective.com/grav/backer/1/avatar.svg"></a>
+<a href="https://opencollective.com/grav/backer/2/website" target="_blank"><img src="https://opencollective.com/grav/backer/2/avatar.svg"></a>
+<a href="https://opencollective.com/grav/backer/3/website" target="_blank"><img src="https://opencollective.com/grav/backer/3/avatar.svg"></a>
+<a href="https://opencollective.com/grav/backer/4/website" target="_blank"><img src="https://opencollective.com/grav/backer/4/avatar.svg"></a>
+<a href="https://opencollective.com/grav/backer/5/website" target="_blank"><img src="https://opencollective.com/grav/backer/5/avatar.svg"></a>
+<a href="https://opencollective.com/grav/backer/6/website" target="_blank"><img src="https://opencollective.com/grav/backer/6/avatar.svg"></a>
+<a href="https://opencollective.com/grav/backer/7/website" target="_blank"><img src="https://opencollective.com/grav/backer/7/avatar.svg"></a>
+<a href="https://opencollective.com/grav/backer/8/website" target="_blank"><img src="https://opencollective.com/grav/backer/8/avatar.svg"></a>
+<a href="https://opencollective.com/grav/backer/9/website" target="_blank"><img src="https://opencollective.com/grav/backer/9/avatar.svg"></a>
+<a href="https://opencollective.com/grav/backer/10/website" target="_blank"><img src="https://opencollective.com/grav/backer/10/avatar.svg"></a>
+<a href="https://opencollective.com/grav/backer/11/website" target="_blank"><img src="https://opencollective.com/grav/backer/11/avatar.svg"></a>
+<a href="https://opencollective.com/grav/backer/12/website" target="_blank"><img src="https://opencollective.com/grav/backer/12/avatar.svg"></a>
+<a href="https://opencollective.com/grav/backer/13/website" target="_blank"><img src="https://opencollective.com/grav/backer/13/avatar.svg"></a>
+<a href="https://opencollective.com/grav/backer/14/website" target="_blank"><img src="https://opencollective.com/grav/backer/14/avatar.svg"></a>
+<a href="https://opencollective.com/grav/backer/15/website" target="_blank"><img src="https://opencollective.com/grav/backer/15/avatar.svg"></a>
+<a href="https://opencollective.com/grav/backer/16/website" target="_blank"><img src="https://opencollective.com/grav/backer/16/avatar.svg"></a>
+<a href="https://opencollective.com/grav/backer/17/website" target="_blank"><img src="https://opencollective.com/grav/backer/17/avatar.svg"></a>
+<a href="https://opencollective.com/grav/backer/18/website" target="_blank"><img src="https://opencollective.com/grav/backer/18/avatar.svg"></a>
+<a href="https://opencollective.com/grav/backer/19/website" target="_blank"><img src="https://opencollective.com/grav/backer/19/avatar.svg"></a>
+<a href="https://opencollective.com/grav/backer/20/website" target="_blank"><img src="https://opencollective.com/grav/backer/20/avatar.svg"></a>
+<a href="https://opencollective.com/grav/backer/21/website" target="_blank"><img src="https://opencollective.com/grav/backer/21/avatar.svg"></a>
+<a href="https://opencollective.com/grav/backer/22/website" target="_blank"><img src="https://opencollective.com/grav/backer/22/avatar.svg"></a>
+<a href="https://opencollective.com/grav/backer/23/website" target="_blank"><img src="https://opencollective.com/grav/backer/23/avatar.svg"></a>
+<a href="https://opencollective.com/grav/backer/24/website" target="_blank"><img src="https://opencollective.com/grav/backer/24/avatar.svg"></a>
+<a href="https://opencollective.com/grav/backer/25/website" target="_blank"><img src="https://opencollective.com/grav/backer/25/avatar.svg"></a>
+<a href="https://opencollective.com/grav/backer/26/website" target="_blank"><img src="https://opencollective.com/grav/backer/26/avatar.svg"></a>
+<a href="https://opencollective.com/grav/backer/27/website" target="_blank"><img src="https://opencollective.com/grav/backer/27/avatar.svg"></a>
+<a href="https://opencollective.com/grav/backer/28/website" target="_blank"><img src="https://opencollective.com/grav/backer/28/avatar.svg"></a>
+<a href="https://opencollective.com/grav/backer/29/website" target="_blank"><img src="https://opencollective.com/grav/backer/29/avatar.svg"></a>
 
-    php56 ./bin/plugin login newpass
 
+# Sponsors
+Become a sponsor and get your logo on our README on Github with a link to your site. [[Become a sponsor](https://opencollective.com/grav#sponsor)]
+
+<a href="https://opencollective.com/grav/sponsor/0/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/0/avatar.svg"></a>
+<a href="https://opencollective.com/grav/sponsor/1/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/1/avatar.svg"></a>
+<a href="https://opencollective.com/grav/sponsor/2/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/2/avatar.svg"></a>
+<a href="https://opencollective.com/grav/sponsor/3/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/3/avatar.svg"></a>
+<a href="https://opencollective.com/grav/sponsor/4/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/4/avatar.svg"></a>
+<a href="https://opencollective.com/grav/sponsor/5/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/5/avatar.svg"></a>
+<a href="https://opencollective.com/grav/sponsor/6/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/6/avatar.svg"></a>
+<a href="https://opencollective.com/grav/sponsor/7/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/7/avatar.svg"></a>
+<a href="https://opencollective.com/grav/sponsor/8/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/8/avatar.svg"></a>
+<a href="https://opencollective.com/grav/sponsor/9/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/9/avatar.svg"></a>
+<a href="https://opencollective.com/grav/sponsor/10/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/10/avatar.svg"></a>
+<a href="https://opencollective.com/grav/sponsor/11/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/11/avatar.svg"></a>
+<a href="https://opencollective.com/grav/sponsor/12/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/12/avatar.svg"></a>
+<a href="https://opencollective.com/grav/sponsor/13/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/13/avatar.svg"></a>
+<a href="https://opencollective.com/grav/sponsor/14/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/14/avatar.svg"></a>
+<a href="https://opencollective.com/grav/sponsor/15/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/15/avatar.svg"></a>
+<a href="https://opencollective.com/grav/sponsor/16/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/16/avatar.svg"></a>
+<a href="https://opencollective.com/grav/sponsor/17/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/17/avatar.svg"></a>
+<a href="https://opencollective.com/grav/sponsor/18/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/18/avatar.svg"></a>
+<a href="https://opencollective.com/grav/sponsor/19/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/19/avatar.svg"></a>
+<a href="https://opencollective.com/grav/sponsor/20/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/20/avatar.svg"></a>
+<a href="https://opencollective.com/grav/sponsor/21/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/21/avatar.svg"></a>
+<a href="https://opencollective.com/grav/sponsor/22/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/22/avatar.svg"></a>
+<a href="https://opencollective.com/grav/sponsor/23/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/23/avatar.svg"></a>
+<a href="https://opencollective.com/grav/sponsor/24/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/24/avatar.svg"></a>
+<a href="https://opencollective.com/grav/sponsor/25/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/25/avatar.svg"></a>
+<a href="https://opencollective.com/grav/sponsor/26/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/26/avatar.svg"></a>
+<a href="https://opencollective.com/grav/sponsor/27/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/27/avatar.svg"></a>
+<a href="https://opencollective.com/grav/sponsor/28/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/28/avatar.svg"></a>
+<a href="https://opencollective.com/grav/sponsor/29/website" target="_blank"><img src="https://opencollective.com/grav/sponsor/29/avatar.svg"></a>
+
+# License
+
+See [LICENSE](LICENSE.txt)
+
+
+[gitflow-model]: http://nvie.com/posts/a-successful-git-branching-model/
+[gitflow-extensions]: https://github.com/nvie/gitflow
+
+# Running Tests
+
+First install the dev dependencies by running `composer update` from the Grav root.
+Then `composer test` will run the Unit Tests, which should be always executed successfully on any site.
+
+You can also run a single unit test file, e.g. `composer test tests/unit/Grav/Common/AssetsTest.php`

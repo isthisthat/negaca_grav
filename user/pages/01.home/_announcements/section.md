@@ -2,22 +2,13 @@
 title: Announcements
 ---
 
-### ➡ Capoeira taster class: International Women’s Day 2017
-International Women’s Day 2017 is an opportunity to celebrate women in the sport that we love – capoeira!
-During that week Grupo Negaça Capoeira is holding a taster class for newcomers to try this unique martial art from Brazil.
+### ➡ Easter Holidays: classes during the week 10 to 14th April:
+* Saffron Walden children: wednesday 12 April: to be confirmed
+* Cambridge children: friday 14th April: closed
+* Stapleford children: friday 14th April: closed
 
-**Saturday 11th March 2017 : 9am – 10.45am**  
-<a href="https://goo.gl/maps/BsS8zfxTo7N2">**Meadows Community Centre**  
-St Catharine’s Road, Cambridge CB4 3XJ</a>
-
-Tickets just £8!
-
-Join us for a beginner workshop taught by Monitoras Coelhinha and Enganosa, where you will have an introduction to the attacks and dodges, acrobatic movements and music of capoeira!
-Suitable for EVERYONE: all abilities, all fitness levels, all ages 18+. Places are limited so reserve your spot soon!
-https://www.facebook.com/events/1933176650248331/ 
-
-### ➡ New [class](#classes): Adult Beginners from January 2017!
-A new class taught by Mestre Chitaozinho will start in January for Capoeira Adult Beginners: Thursdays 6:30pm at the Scout Hall (see [Schedule Section](#classes) for details). Please book your place by sending an email to negaca@capoeiracambridge.co.uk where we will also reply to any questions. Thank you for the interest so far!! We still have a small number of places available. Axé.
+### ➡ New [class](#classes): Adult Beginners from 6th April 2017 until 8th June 2017!
+A new 10 weeks Capoeira course taught by Mestre Chitaozinho has started on the 6th of April for Capoeira Adult Beginners: Thursdays 6:30pm at the Scout Hall (see [Schedule Section](#classes) for details). Please book your place by sending an email to negaca@capoeiracambridge.co.uk where we will also reply to any questions. Thank you for the interest so far!! We still have a number of places available. The students of the previous course will continue training at the same venue and same time with the instructors of Mestre Chitaozinho. The price for this course is 6GBP per class. Axé.
 
 ### [➡ Batizado 2017!](/batizado2017)
 The Negaca Batizado e Troca de Cordoes is on the **2-4 June 2017**!  

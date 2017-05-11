@@ -39,7 +39,6 @@ The grades for 13+ year olds and corresponding prices are as follows. Your teach
 - Instrutor >7 years: £120  
 ![](belt6.png)
 
-
 ### Children Grades
 
 Children under the age of 13 have the following grade system and prices:  
@@ -56,12 +55,32 @@ Children under the age of 13 have the following grade system and prices:
 - Student <4 years: £45  
 ![](ibelt4.png)  
 
-
 ### Student Payment
 
 Instructions:  
-1. Ask your teacher whether you're due a new belt this year. Your teacher will tell you your new level.
-2. Identify your level in the drop-down, or choose "not getting a belt".
+1. Adults, please choose "not getting a belt". Other options are disabled and you will be able to pay the difference corresponding to your new level (if any) after the event.
+2. Children/Parents, please ask your instructor about which option to choose
 3. Choose your training location from the drop-down: Cambridge, Saffron Walden or Stapleford.
 4. Enter the student's name and complete your payment. If you're a parent paying for multiple children, please repeat the process for each child.
 
+
+### Children Batizado Schedule and Activities: 2nd, 3d, 4th June 2017
+
+The Batizado will develop over three days: the children activities will happen across Friday 2nd June and Saturday 4th June as per following tentative schedule: (Detailed information about the event and locations can be found [➡ here!](/batizado2017))
+
+#### Friday 2nd June: 18:30pm start
+
+* 18:30pm: duration 30 mins: opening of the 9th Batizado of the Grupo Negaça Capoeira with welcoming, music and warm-up
+* 19:00pm: duration 20 mins: children workshop conducted by one of the Mestres in the guest list
+* 19:20pm: duration 5-10 mins: break
+* 19:30pm: duration 15-20 mins: children roda
+* after this the children will be free to go home or stay and watch, and the adults will continue with workshops and/or roda
+
+#### Saturday 3d June: 10:30am start
+
+* 10:30am: (2nd) opening of the 9th Batizado of the Grupo Negaça Capoeira with welcoming, music and warm-up
+* 11:10am: duration 20 mins: children workshop conducted by one of the Mestres in the guest list (children may be split into age groups for parallel workshops)
+* 11:30am: duration 10 mins: break
+* 11:40am: duration 10 mins:children Maculele' presentation
+* 12:00am: duration 30 mins: longer break for children
+* 12:30am: duration 1hour: Batizado children: where each children will play a 1-2minutes Capoeira game with one/two Mestres (depending on the level of the children's belt) and get their belt (cordao) and certificate. At each belt (cordao) group of children a photo will be taken, as well as one group photo per each class of training.
