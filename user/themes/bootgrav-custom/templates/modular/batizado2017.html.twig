@@ -19,20 +19,31 @@
                                         <option value="Guest - Friday only -">Guest - Friday only - £15.00 GBP</option>
                                         <option value="Guest - Saturday only -">Guest - Saturday only - £50.00 GBP</option>
                                         <option value="Guest - Sunday only -">Guest - Sunday only - £35.00 GBP</option>
-                                        <option value="Guest - Regular 3 days -">Guest - Regular 3 days - £80.00 GBP</option>
+                                        <option value="Guest - Regular 3 days -" selected>Guest - Regular 3 days - £80.00 GBP</option>
+                                        <option value="Guest - Saturday beginner taster session -">Guest - Saturday beginner taster session - £5.00 GBP</option>
 									</select>
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="os1" class="col-sm-4 control-label">Name and Group</label>
+							    <label for="os1" class="col-sm-4 control-label">Accommodation</label>
+							    <div class="col-sm-8">
+								<select class="form-control" name="os1" id="os1">
+								    <option value="Dont need">Dont need</option>
+								    <option value="Please accommodate me for 1 night">Please accommodate me for 1 night</option>
+								    <option value="Please accommodate me for 2 nights">Please accommodate me for 2 nights</option>
+								</select>
+							    </div>
+							</div>
+							<div class="form-group">
+								<label for="os2" class="col-sm-4 control-label">Name and Group</label>
 								<div class="col-sm-8">
-									<input type="text" name="os1" id="os1" class="form-control" maxlength="200" placeholder="Name, Group">
+									<input type="text" name="os2" id="os2" class="form-control" maxlength="200" placeholder="Name, Group">
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="os2" class="col-sm-4 control-label"> </label>
+								<label for="btn_buy" class="col-sm-4 control-label"> </label>
 								<div class="col-sm-8">
-									<input type="image" id="os2" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+									<input type="image" id="btn_buy" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
 									<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
                                     <button id="popover-help" type="button" class="btn btn-link pull-right" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Having trouble paying with PayPal? Try clearing your browser cookies or open an icognito window and try again. Email us at negaca@capoeiracambridge.co.uk if you are unable to pay.">help</button>
 								</div>
