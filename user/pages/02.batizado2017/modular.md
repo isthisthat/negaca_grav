@@ -10,6 +10,7 @@ content:
             - _info
             - _schedule
             - _guests
+            - _bottom
 menu: 'batizado 2017'
 spy_items: 'info schedule guests'
 metadata:

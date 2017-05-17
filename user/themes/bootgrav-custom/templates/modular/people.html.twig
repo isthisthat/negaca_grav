@@ -2,9 +2,10 @@
 <!-- section - {{ page.menu }} -->
 <div id="{{ page.menu }}" class="pad-section">
     <div class="container">
-		<h2>{{ page.title }}</h2>
-		<br>
+	<h2>{{ page.title }}</h2>
+	<br>
         {{ page.content }}
+	<hr>
         <div class="row">
             <div class='list-group gallery'>
                 {% for image in page.media.images %}

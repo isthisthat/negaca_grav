@@ -22,7 +22,7 @@ Saffron Walden CB10 1AA](https://goo.gl/maps/ZbdbEa5657B2)
 [**Chesterton Sports Centre**  
 Gilbert Road,
 Cambridge, CB4 3NY](https://goo.gl/maps/Zp3w3X9Xhs32)
-* 10am - 4pm
+* 10am - 5pm
 
 ### Hot buffet, raffle & book presentation
 [**Arbury Community Centre**  

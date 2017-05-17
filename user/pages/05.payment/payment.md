@@ -6,7 +6,9 @@ visible: false
 
 ![](negaca.png)
 
-This page contains payment information about the Grupo Negaça Capoeira Batizado 2017, which will take place on June 2-4. Detailed information about the event can be found [➡ here!](/batizado2017)
+This page contains payment information about the 6th Grupo Negaça Capoeira Batizado, which will take place on June 2-4, 2017.  
+**Please read carefully** and scroll to the end for [student payment](#pay).  
+Detailed information about the Batizado schedule and locations can be found [➡ here!](/batizado2017)
 
 ## About the Negaça Batizado
 
@@ -55,18 +57,9 @@ Children under the age of 13 have the following grade system and prices:
 - Student <4 years: £45  
 ![](ibelt4.png)  
 
-### Student Payment
+### Children Batizado Schedule and Activities
 
-Instructions:  
-1. Adults, please choose "not getting a belt". Other options are disabled and you will be able to pay the difference corresponding to your new level (if any) after the event.
-2. Children/Parents, please ask your instructor about which option to choose
-3. Choose your training location from the drop-down: Cambridge, Saffron Walden or Stapleford.
-4. Enter the student's name and complete your payment. If you're a parent paying for multiple children, please repeat the process for each child.
-
-
-### Children Batizado Schedule and Activities: 2nd, 3d, 4th June 2017
-
-The Batizado will develop over three days: the children activities will happen across Friday 2nd June and Saturday 4th June as per following tentative schedule: (Detailed information about the event and locations can be found [➡ here!](/batizado2017))
+The Batizado will develop over three days; children's activities are planned for Friday 2nd June and Saturday 4th June following the tentative schedule below.
 
 #### Friday 2nd June: 18:30pm start
 
@@ -84,3 +77,12 @@ The Batizado will develop over three days: the children activities will happen a
 * 11:40am: duration 10 mins:children Maculele' presentation
 * 12:00am: duration 30 mins: longer break for children
 * 12:30am: duration 1hour: Batizado children: where each children will play a 1-2minutes Capoeira game with one/two Mestres (depending on the level of the children's belt) and get their belt (cordao) and certificate. At each belt (cordao) group of children a photo will be taken, as well as one group photo per each class of training.
+
+### Student Payment
+
+Instructions:  
+1. Adults, please choose "not getting a belt". Other options are disabled but you will be able to pay the difference corresponding to your new level (if any) after the event.
+2. Children/Parents, please speak to your instructor and choose the appropriate option.
+3. Choose your training location from the drop-down menu: Cambridge, Saffron Walden or Stapleford.
+4. Enter the student's name and complete your payment. If you're a parent paying for multiple children, please repeat the process for each child.
+
