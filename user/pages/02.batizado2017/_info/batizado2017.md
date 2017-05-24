@@ -19,11 +19,11 @@ Register below for the 9th Batizado and Troca de Cordões of Grupo Negaça Capoe
 This year, besides capoeira, our talented teachers and guests will give **Maculele, Afro-Brazilian dance and music** workshops!
 
 The tentative schedule for **Saturday** is as follows:
-* 10am - 12pm: Adult and children warmup and workshops
+* 10am - 12pm: Adult and children warmup and workshops; beginner's sessions
 * 12 - 12:30pm: Break
 * 12:30 - 1:30pm: Children's batizado
 * 1:30 - 3pm: Adult's batizado
-* 3 - 5pm: Roda, beginner's sessions, dance, music
+* 3 - 5pm: Roda, dance, music
 
 You will have a chance to take a shower at Chesterton Sports Centre after the event. The Arbury Community Centre where the event continues is a 20min walking distance.
 
