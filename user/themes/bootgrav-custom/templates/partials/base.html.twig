@@ -53,7 +53,6 @@
 </head>
 
 <body data-spy="scroll" data-target="#navbar-collapse-main">
-{{ dump(page) }}
 
 {% include 'partials/navigation.html.twig' %}
 
@@ -67,12 +66,16 @@
 
 <div class="footer">
     <div class="container">
-        <p class="text-muted text-center">&copy; 2016 Grupo Negaça Capoeira. Contact <a href="mailto:negaca@capoeiracambridge.co.uk">negaca@capoeiracambridge.co.uk</a></p>
+        <p class="text-muted text-center">&copy; 2016-2018 Grupo Negaça Capoeira. Contact <a href="mailto:negaca@capoeiracambridge.co.uk">negaca@capoeiracambridge.co.uk</a></p>
         <center><h3>{% include 'partials/social.html.twig' %}</h3></center>
     </div>
 </div>
+
 </body>
+
 {% block bottom %}
     {{ assets.js('bottom') }}
 {% endblock %}
+
 </html>
+

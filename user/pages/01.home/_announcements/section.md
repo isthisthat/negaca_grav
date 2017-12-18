@@ -2,10 +2,19 @@
 title: Announcements
 ---
 
-### ➡ New [class](#classes): Adult Beginners from 6th April 2017 until 8th June 2017!
-Are you looking for a fun way to get fit? Do you want to re-connect with your inner child and re-learn to move to like one? Come and try our adult's beginner class! No previous experience necessary, just enthusiasm and willingness to try something freash. We'll take you step-by-step through basic capoeira and acrobatic movements while increasing your flexibility and strength. Please book your place or ask questions [here](mailto:negaca@capoeiracambridge.co.uk). We train on Thursdays at 6:30pm at the Scout Hall (see [Schedule Section](#classes) for details). Axé.
+### ➡ New 2018 Beginners series!
+Get fit, make new friends and start an awesome hobby in 2018 with capoeira!
+Check out our beginners [schedule](#classes) and [**sign-up here**](/signup) for a class. Places are limited!
 
-### [➡ Batizado 2017!](/batizado2017)
-The Negaca Batizado e Troca de Cordoes is on the **2-4 June 2017**!  
-Reserve your place for the whole weekend by [**booking now**](/batizado2017#info)!
-https://www.facebook.com/events/1494548837239244/
+### ➡ Christmas Break ADULTS
+* Last class on Tuesday 19/12/2017
+* Restarting on Tuesday 09/01/2018
+
+### ➡ Christmas Break CHILDREN
+* Cambridge Capoeira club children: last class before Christmas break: 15th Dec 2017 both 18:15 (6-10yrs) and 19:00 (11-15yrs) classes as per [schedule](#classes)
+* Saffron Walden Capoeira club children: last class before Christmas break: 13th Dec 2017 both 18:00 (6-10yrs) and 18:40 (11-above yrs) classes as per [schedule](#classes)
+* Stapleford Capoeira club children: to be announced
+
+* Please contact [**Manuela**](mailto:manuela.gnc@gmail.com) for place availability in the Cambridge and Saffron Walden kids clubs.
+* Please contact [**Susannah**](mailto:enganosa.gnc@gmail.com) for place availability in the Stapleford kids clubs.
+
