@@ -18,10 +18,11 @@ textformatter: false
 Flamesteed Road,
 Cambridge, CB1 3QU](https://goo.gl/maps/wSZbnx9icyn)
 
-**Spring Term Dates**
-* January: 12,19,26
-* February: 2,9,23
-* March: 2,9,16,23,30
+**Summer Term 2018 Dates**
+* Apr: 6,13,20
+* May: 4,11,18,25
+* June: 8,22,29 (Batizado end of year Graduation on 15,16,17 June 2018)
+* July 6,13,20 (Masters visiting from Brazil)
 
 ==contact <a href="mailto:manuela.gnc@gmail.com">Manuela</a>==
 
@@ -30,20 +31,18 @@ Cambridge, CB1 3QU](https://goo.gl/maps/wSZbnx9icyn)
 ==Saffron Walden==
 
 ### Wednesday
-* Children Class (6 to 9 years)  
-6:00 - 6:40pm, £4
-
-* Children Class (10 to 15 years)  
-6:45 - 7:45pm, £4
+* Children Class (6 to 15 years)  
+6:30 - 7:30pm, £4
 
 [**Golden Acre Community Centre**  
 Long Horse Croft,
 Saffron Walden, CB11 4BL](https://goo.gl/maps/74EXohV3jAK2)
 
-**Spring Term Dates**
-* January: 10,17,24,31
-* February: 7,21,28
-* March: 7,14,21,28
+**Summer Term 2018 Dates**
+* Apr: 11,18,25
+* May: 2,9,16,23
+* June: 6,20,27 (Batizado end of year Graduation on 15,16,17 June 2018)
+* July 4,11,18 (Masters visiting from Brazil)
 
 ==contact <a href="mailto:manuela.gnc@gmail.com">Manuela</a>==
 

@@ -2,9 +2,19 @@
 title: Announcements
 ---
 
+### ➡ GNC Batizado 2018!
+Mark your calendar for the Grupo Negaça Capoeira Batizado **June 15-17, 2018**! More details to follow.
+
 ### ➡ New adult class in Cambourne, 28th February 2018
 Taught by Mestre Chitaozinho, this new class starts on the 28th February and is open to complete beginners with all Capoeira levels welcome. Check out the details at [schedule](#classes)
 * Please contact [**Helen**](mailto:capoeiracambs@gmail.com) for availability in the Cambourne class
+
+<!--
+### ➡ Easter Holidays 2018 CHILDREN
+* Cambridge Capoeira club children:  Friday 30/03/2018 all classes on holiday [schedule](#classes)
+* Saffron Walden Capoeira club children: Wednesday 4/04/2018 all classes on holiday [schedule](#classes)
+* Please contact [**Manuela**](mailto:manuela.gnc@gmail.com) for place availability in the Cambridge and Saffron Walden kids clubs.
+-->
 
 <!--
 ### ➡ New 2018 Beginners series!
@@ -15,9 +25,9 @@ New 10-week beginners series starting:
 Check out the detailed [schedule](#classes) of beginner classes and [**sign-up here**](/signup). Places are limited!
 -->
 <!--
-### ➡ February Half Term 2018 CHILDREN
-* Cambridge Capoeira club children: Friday 16/02/2018 all classes on holiday [schedule](#classes)
-* Saffron Walden Capoeira club children: Wednesday 14/02/2018 all classes on holiday [schedule](#classes)
+### ➡ Easter Holidays 2018 CHILDREN
+* Cambridge Capoeira club children:  Friday 30/03/2018 all classes on holiday [schedule](#classes)
+* Saffron Walden Capoeira club children: Wednesday 4/04/2018 all classes on holiday [schedule](#classes)
 
 * Please contact [**Manuela**](mailto:manuela.gnc@gmail.com) for place availability in the Cambridge and Saffron Walden kids clubs.
 * Please contact [**Susannah**](mailto:enganosa.gnc@gmail.com) for place availability in the Stapleford kids clubs.
