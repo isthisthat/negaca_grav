@@ -1,4 +1,4 @@
-enabled: true
+enabled: false
 active: true
 autoemail: true
 autoimage: true
@@ -29,14 +29,19 @@ bbcodes:
     - spoiler
     - u
     - url
+  custom: null
 censor:
   enabled: true
+  words: null
 emoji: twemoji
 emoticons:
   enabled: true
+  path: ''
+  icons: null
 escaper:
   enabled: true
   escape_all: false
+  regex: ''
 fancypants: true
 html:
   enabled: true
@@ -80,9 +85,12 @@ html:
         tr: ''
         u: ''
         ul: ''
+      unsafe: null
 keywords:
   enabled: true
   case_sensitive: true
+  template: ''
+  keywords: null
 mediaembed:
   enabled: true
   create_individiual_bbcodes: true
@@ -103,3 +111,5 @@ mediaembed:
     - youtube
 preg:
   enabled: true
+  replace: null
+  match: null
