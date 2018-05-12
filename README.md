@@ -30,6 +30,10 @@ If your page contains sections you would like to appear on the menu, you need to
     menu: Home
     spy_items: 'classes children info'
 
+### Hiding a page
+
+You can hide a page from the menu without deleting it. Click on the page, got to the Advanced tab, under Overrides, check the Visible box and turn the switch to Disabled. You can still visit the page by typing its url, you just won't see it in the menu.
+
 ## For developers
 
 ### Making changes to the code
