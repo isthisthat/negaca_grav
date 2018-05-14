@@ -2,11 +2,11 @@
 title: Announcements
 ---
 
-### ➡ GNC Batizado 2018!
-Mark your calendar for the Grupo Negaça Capoeira Batizado **June 15-17, 2018**! More details to follow.
+### ➡ [**GNC Batizado 2018**](/batizado2018)!
+Mark your calendar for the Grupo Negaça Capoeira Batizado **June 15-17, 2018**! Join us to celebrate 10yrs of Negaça in the UK! Book your tickets [**here**](/batizado2018#info)
 
-### ➡ New adult class in Cambourne, 28th February 2018
-Taught by Mestre Chitaozinho, this new class starts on the 28th February and is open to complete beginners with all Capoeira levels welcome. Check out the details at [schedule](#classes)
+### ➡ New adult class in Cambourne
+Taught by Mestre Chitãozinho, this new class starts on the 28th February and is open to complete beginners with all Capoeira levels welcome. Check out the details in the [schedule](#classes)
 * Please contact [**Helen**](mailto:capoeiracambs@gmail.com) for availability in the Cambourne class
 
 <!--

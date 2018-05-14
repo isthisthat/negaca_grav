@@ -1,6 +1,6 @@
 ---
 title: 'Batizado 2018 - Student payment'
-media_order: 'belt1.png,belt2.png,belt3.png,belt4.png,belt5.png,belt6.png,belt7.png,belt8.png,belt9.png,belt10.png,belt11.png,ibelt1.png,ibelt2.png,ibelt3.png,ibelt4.png,ibelt5.png,ibelt6.png,ibelt7.png,negaca.png,Photopolicyconsentform.pdf'
+media_order: 'belt1.png,belt2.png,belt3.png,belt4.png,belt5.png,belt6.png,belt7.png,belt8.png,belt9.png,belt10.png,belt11.png,ibelt1.png,ibelt2.png,ibelt3.png,ibelt4.png,ibelt5.png,ibelt6.png,ibelt7.png,negaca.png,Photopolicyconsentform_2018.pdf'
 menu: payment
 visible: false
 ---
@@ -15,11 +15,18 @@ Detailed information about the Batizado schedule and locations can be found [➡
 
 Thank you all for being part of the Negaça family, for supporting our group, for helping it grow and for putting your energy and enthusiasm into every session. Learning capoeira means keeping this wonderful art alive and sharing your ideas and self-expression with the world as much as learning from it. The Batizado e Troca de Cordões (literally meaning "baptism and change of belts") is an annual event where new students get their first belt and regular students change to a higher belt. For that, a student is usually asked to play in the capoeira roda with masters and experienced capoeiristas in order to demonstrate his or her progress.
 
-The Batizado is a time when we invite students and teachers from around the world to share cultures and create unique moments to remember. To allow for an event of such scale, a lot of people have been working hard for months and even years, to bridge connections with other capoeira groups, to collect the money required for covering expenses for teachers and venues, for advertising and for making sure this is as rich an exprience as it can possibly be. It is worth noting that this is not a business, it's all on a voluntary basis and if we didn't do it, this opportunity would not exist. Success means that everyone has enjoyed themselves, they've learned a lot, they have challenged themselves and are ready to do it all again!
+The Batizado is a time when we invite students and teachers from around the world to share cultures and create unique moments to remember. To allow for an event of such scale, a lot of people have been working hard for months and even years; to bridge connections with other capoeira groups, to collect the money required for covering expenses for teachers and venues, for advertising and for making sure this is as rich an exprience as it can possibly be. It is worth noting that this is not a business, it's all on a voluntary basis and if we didn't do it, this opportunity would not exist. Success means that everyone has enjoyed themselves, they've learned a lot, they have challenged themselves and are ready to do it all again!
 
-With that, please find your contribution below, which is according to your level and covers the majority of the expenses for this event, your participation and your next belt (if you're due one). Like many capoeira groups, Negaça Capoeira has a grading system that is represented by wearing coloured belts around the waist and which hang to the left at knee level. If you have further questions, please speak to a teacher or graduated student in one of our regular tranings! Muito Axé!
+With that, please find your contribution below, which is according to your level and covers the majority of the expenses for this event, your participation, tshirt and your next belt (if you're due one). Like many capoeira groups, Negaça Capoeira has a grading system that is represented by wearing coloured belts around the waist and which hang to the left at knee level. If you have further questions, please speak to a teacher or graduated student in one of our regular tranings! Thanks and Muito Axé!
+  
+&nbsp;
+&nbsp;
+  
+<a name="adultgrades"></a>
+## Adult info
 
-### Adult grades
+### Grades
+
 The grades for 13+ year olds and corresponding prices are as follows. Your teacher will let you know soon whether you're due a new belt!
 
 - Student not getting a belt this year: £80  
@@ -41,8 +48,12 @@ The grades for 13+ year olds and corresponding prices are as follows. Your teach
 
 - Instrutor >7 years: £120  
 ![](belt6.png)
-
-### Children Grades
+  
+&nbsp;
+&nbsp;
+  
+## Children Info
+### Grades
 
 Children under the age of 13 have the following grade system and prices:  
 
@@ -63,9 +74,9 @@ Children under the age of 13 have the following grade system and prices:
 - Child student <5 years: £45  
 ![](ibelt5.png)  
 
-### Children Batizado Schedule and Activities
+### Batizado Schedule and Activities
 
-The Batizado will develop over three days; children's activities are planned for Friday 15th June and Saturday 16th June following the tentative schedule below.
+The Batizado will develop over three days; children's activities are planned for Friday 15th June and Saturday 16th June, following the tentative schedule below:
 
 #### Friday 15th June: 6:30pm start
 
@@ -90,15 +101,25 @@ The Batizado will develop over three days; children's activities are planned for
 * Children's activities end at 15:00. Children and parents are walcome to stay for the adult batizado and rodas
 * 15:00 - 16:00: Adult batizado
 * 16:00 - 17:30: Adult rodas
+  
+&nbsp;
+&nbsp;
+  
+## Student Payment
 
-### Student Payment
+### Adults
+1. Adults, please choose the "base price" level. You will be able to pay the difference corresponding to your new level (if any) after the event. Prices are listed [above](#adultgrades).
+2. Choose your training location from the drop-down menu: Cambridge, Saffron Walden, Stapleford or Cambourne.
+3. The photographic consent is for *children only* and complies with the [GNC photographic policy](Photopolicyconsentform_2018.pdf?target=_blank). However, if you have any concerns, please feel free to choose an option that's right for you.
+4. Complete your payment.
 
+### Children/Parents
 Instructions:  
-1. Adults, please choose "base price". You will be able to pay the difference corresponding to your new level (if any) after the event. Prices are listed above.
-2. Children/Parents, please speak to your instructor and choose the appropriate option.
-3. Choose your training location from the drop-down menu: Cambridge, Saffron Walden, Stapleford or Cambourne.
-4. Enter the student's name and complete your payment. If you're a parent paying for multiple children, please repeat the process for each child.
-5. Choose a photo policy for your child. Note that we _will not post children's photos on social media without parents' consent_. Read more about our photo policy [here](Photopolicyconsentform.pdf?target=_blank)
+1. Children/Parents, please speak to your instructor and choose the appropriate level.
+2. Choose your training location from the drop-down menu: Cambridge, Saffron Walden, Stapleford or Cambourne.
+4. Enter the student's name.
+5. The photographic consent can be expressed in the drop down and is equivalent to having completed and signed the [**form**](Photopolicyconsentform_2018.pdf?target=_blank) on the date of payment. If your preferences are not expressed in the drop down, please print and fill out the [**form**](Photopolicyconsentform_2018.pdf?target=_blank) and hand it over to your instructor as soon as possible and before the Batizado.
+6. Complete your payment. If you're a parent paying for multiple children, please repeat the process for each child.
 
     <div class="row" id="pay">
         <div class="col-md-8">
@@ -149,8 +170,10 @@ Instructions:
                             <label for="os3" class="col-sm-4 control-label">Photographic consent</label>
                             <div class="col-sm-8">
                                 <select class="form-control" name="os3" id="os3">
-                                    <option value="Any photo is ok">Any photo is ok</option>
-                                    <option value="Group photos only">Group photos only</option>
+                                    <option value="Any photo/All purposes">Any photo/All purposes</option>
+                                    <option value="Group photos only/All purposes">Group photos only/All purposes</option>
+                                    <option value="Any photo/No social media">Any photo/No social media</option>
+                                    <option value="I will complete the form">I will complete the form</option>
                                 </select>
                             </div>
                         </div>

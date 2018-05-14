@@ -3,24 +3,27 @@ title: 'Capoeira Festival 2018'
 menu: info
 ---
 
-Mestre Chitãozinho and his students welcome you to the 10th Grupo Negaça Capoeira Batizado and Troca de Cordões on the weekend of **15-17 June 2018**! The Batizado e Troca de Cordões (literally meaning "baptism and change of belts") is an annual event where new students get their first belt and regular students change to a higher belt. Get a chance to train with famous [masters](#guests) from around the world, meet new people, train and have an awesome time!  
+Mestre Chitãozinho and his students welcome you to the 10th Grupo Negaça Capoeira Batizado and Troca de Cordões on the weekend of **15-17 June 2018**! The Batizado e Troca de Cordões (literally meaning "baptism and change of belts") is an annual event where new students get their first belt and regular students change to a higher belt. Get a chance to train with famous [masters](#guests) from around the world, meet new people, try new capoeira styles and have an awesome time!  
 
 - - -
 
-###There's limited availability so get your tickets now!
+###There's limited availability, get your tickets now!
 
 Please note:
-* Prices below are for **guests only**! Students of Negaça please talk to your instructor regarding your contribution towards the event.
+* Prices below are for **guests only**! Profesores and above can join us for free. Students of Negaça please talk to your instructor regarding your contribution towards the event.
 * Saturday and all-event tickets include entrance to the **Negaça Brazilian Party**!
-* There will be a **hot buffet** for £6 (£4 for kids) on Saturday after the capoeira event (collected on-site). Price includes a **raffle ticket**! More details in the [schedule](#schedule) below.
+* There will be a **hot buffet** for £6 adults / £4 kids (pay on-site) on Saturday after the capoeira event. Price includes a **raffle ticket**! More details in the [schedule](#schedule) below.
 * Accommodation is not guaranteed. We will do our best to accommodate guests who request it on a first-come first-served basis.
 * **Discount rates** (20%) are available for students traveling from abroad for this event, and instructors bringing two or more students.
-
+  
+  &nbsp;
+  
     <div class="col-md-12">
+    <div class="col-md-3">&nbsp;</div>
     <div class="col-md-6">
 	<div class="panel panel-primary">
 		<div class="panel-heading">
-			<h3>Purchase tickets!</h3>
+			<h3>Purchase tickets</h3>
 		</div>
 		<div class="panel-body" id="payment">
 			<form class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
@@ -71,15 +74,19 @@ Please note:
 		</div> <!-- panel body -->
 	</div> <!-- panel -->
     </div> <!-- col -->
+    <div class="col-md-3">&nbsp;</div>
     </div> <!-- col -->
-
+  
+&nbsp;
+&nbsp;
+  
   
 ---
-
+  
 ###Batizado Information:
 This year marks the **10 years of Grupo Negaça in the UK**! Your presence and support will make this occassion even more special!
 
-The tentative schedule for **Saturday** is as follows:
+The detailed schedule for **Saturday** is as follows (scroll down for weekend schedule):
 * 11:15am - 11:30pm: Registration
 * 11:30am - 12:30pm: Workshops
 * 12:30 - 12:40pm: Break
@@ -89,14 +96,14 @@ The tentative schedule for **Saturday** is as follows:
 * 3 - 4pm: Adult batizado
 * 4 - 5:30pm: Adult Roda
 
-You will have a chance to take a shower at Chesterton Sports Centre after the event. The Arbury Community Centre where the event continues is a 20min walking distance.
+You will have a chance to take a shower at Chesterton Sports Centre after the event. The Arbury Community Centre where the event continues is a [20min walking distance](https://www.google.com/maps/dir/Chesterton+Sports+Centre,+Chesterton+Community+college,+Gilbert+Rd,+Cambridge+CB4+3NY/Arbury+Community+Centre,+Campkin+Road,+Cambridge/@52.221463,0.1220654,16z/data=!3m2!4b1!5s0x47d870ea1c5184eb:0x507b7152a433da45!4m14!4m13!1m5!1m1!1s0x47d870ea1fcbb12d:0xe624eb2b6b1e0d7e!2m2!1d0.121782!2d52.217649!1m5!1m1!1s0x47d870e44f74d901:0xead18248f0504df6!2m2!1d0.1286019!2d52.226313!3e2?target=_blank).
 
-* 7 - 9pm: Hot buffet (£5), raffle for a berimbau and a new book by Mestre Chitãozinho
+* 7 - 9pm: Hot buffet, raffle for two special items :)
 * 9pm - midnight: Brazilian party! (open to Negaça students and batizado guests)
 
 If you need accommodation for Friday or Saturday night, please [get in touch](mailto:negaca@capoeiracambridge.co.uk) as soon as possible!
 
 - - -
 
-###Please support our [**Facebook event**](https://www.facebook.com/events/1950210038554802/?target=_blank)!
+###Please support our [**➡️Facebook event**](https://www.facebook.com/events/1950210038554802/?target=_blank)
 

@@ -1,6 +1,6 @@
 ---
 title: 'Special Guests'
-media_order: 'mestre_irani.jpg,mestre_zangado.jpg,mestre_pedro.jpg,mestre_estrangeiro.jpg,mestre_olho_de_gato.jpg,mestre_ceguinho.jpg,contramestre_edinho.png,mestre_chitaozinho.jpg'
+media_order: 'mestre_irani.jpg,mestre_zangado.jpg,mestre_pedro.jpg,mestre_estrangeiro.jpg,mestre_olho_de_gato.jpg,mestre_ceguinho.jpg,contramestre_edinho.png,professor_coisado.jpg,mestre_chitaozinho.jpg'
 menu: guests
 ---
 
