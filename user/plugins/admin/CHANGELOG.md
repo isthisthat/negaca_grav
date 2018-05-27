@@ -1,3 +1,28 @@
+# v1.8.2
+## 05/24/2018
+
+1. [](#new)
+    * Added custom object support for filepicker field
+    * Don't allow saving of a user with no local account file
+    * Controls for `list` field were not in sync between top and bottom
+1. [](#improved)
+    * More subtle `fieldset` styling
+1. [](#bugfix)
+    * Check if `$object->blueprints()` exists in `onAdminAfterSave`
+    * When creating first user, check `admin.login` not `site.login`
+    * Fix admin login redirects for multisite setups
+    * Fixed issue with filepicker field where images wouldn't properly merge with the current value if in a page header 
+    * Fixed media delete for streams
+
+# v1.8.1
+## 05/15/2018
+
+1. [](#improved)
+    * use SHA1 hashing of IP addressed to support GDPR rules [#1436](https://github.com/getgrav/grav-plugin-admin/pull/1436)
+1. [](#bugfix)
+    * Fixed 2FA form showing up even if user has not turned on the feature [#1442](https://github.com/getgrav/grav-plugin-admin/issues/1442)
+    * Fixed previews of images in Pagemedia field not properly URI encoded [#1438](https://github.com/getgrav/grav-plugin-admin/issues/1438)
+
 # v1.8.0
 ## 05/11/2018
 
