@@ -8,11 +8,11 @@ textformatter: false
 
 ### Tuesday
 * All Level Adults (beginners welcome)  
-7:30 - 9:00 pm, £8
+8:00 - 9:00 pm, £6
 
-[**Parkside Community College**  
-**Room 7 (Dance/Drama Studio)**
-Parkside, Cambridge CB1 1EH](https://goo.gl/maps/CyLhocYbnjG2)
+[**North Cambridge Academy**  
+Arbury Road,
+Cambridge, CB2 JF](https://goo.gl/maps/eC7FP7qHRJG2)
 
 ### Thursday
 * Beginner Adults  
@@ -45,10 +45,12 @@ Saffron Walden, Essex, CB11 4BL](https://goo.gl/maps/74EXohV3jAK2)
 
 ==Cambourne==
 
-### Wednesday
+<!--### Wednesday
 * All Level Adults (beginners welcome)  
 7:30 - 8:30pm, £6 (£5 university/college students)
 
 [**The Hub (Meeting Room)**](https://goo.gl/maps/AbJS4WpZT372)
+-->
+* classes temporarily suspended
 
 ==contact <a href="mailto:capoeiracambs@gmail.com">Helen</a>==

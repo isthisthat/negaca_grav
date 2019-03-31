@@ -12,7 +12,7 @@ Mestre Chitãozinho and his students welcome you to the 10th Grupo Negaça Capoe
 Please note:
 * Prices below are for **guests only**! Profesores and above can join us for free. Students of Negaça please talk to your instructor regarding your contribution towards the event.
 * Saturday and all-event tickets include entrance to the **Negaça Brazilian Party**!
-* There will be a **hot buffet** for £6 adults / £4 kids (pay on-site) on Saturday after the capoeira event. Price includes a **raffle ticket**! More details in the [schedule](#schedule) below.
+* There will be a **hot buffet** for £6 adults / £4 kids (pay on-site) on Saturday after the capoeira event. More details in the [schedule](#schedule) below.
 * Accommodation is not guaranteed. We will do our best to accommodate guests who request it on a first-come first-served basis.
 * **Discount rates** (20%) are available for students traveling from abroad for this event, and instructors bringing two or more students.
   
@@ -36,7 +36,7 @@ Please note:
 				<div class="form-group">
 					<label for="os0" class="col-sm-4 control-label">Select Ticket</label>
 					<div class="col-sm-8">
-						<select class="form-control" name="os0" id="os0">
+						<select class="form-control" name="os0" id="os0" disabled>
 							<option value="Guest - Friday only -">Guest - Friday only - £35.00 GBP</option>
 							<option value="Guest - Only Saturday or Sunday -">Guest - Only Saturday or Sunday - £50.00 GBP</option>
 							<option value="Guest - Whole weekend -" selected>Guest - Whole weekend - £85.00 GBP</option>
@@ -49,7 +49,7 @@ Please note:
 				<div class="form-group">
 				    <label for="os1" class="col-sm-4 control-label">Accommodation</label>
 				    <div class="col-sm-8">
-					<select class="form-control" name="os1" id="os1">
+					<select class="form-control" name="os1" id="os1" disabled>
 					    <option value="Dont need">Dont need</option>
 					    <option value="Please accommodate me for 1 night">Please accommodate me for 1 night</option>
 					    <option value="Please accommodate me for 2 nights">Please accommodate me for 2 nights</option>
@@ -59,13 +59,13 @@ Please note:
 				<div class="form-group">
 					<label for="os2" class="col-sm-4 control-label">Name and Group</label>
 					<div class="col-sm-8">
-						<input type="text" name="os2" id="os2" class="form-control" maxlength="200" placeholder="Name, Group">
+						<input type="text" name="os2" id="os2" class="form-control" maxlength="200" placeholder="Name, Group" disabled>
 					</div>
 				</div>
 				<div class="form-group">
 					<label for="btn_buy" class="col-sm-4 control-label"> </label>
 					<div class="col-sm-8">
-						<input type="image" id="btn_buy" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+						<input type="image" id="btn_buy" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!" disabled>
 						<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
 	    <button id="popover-help" type="button" class="btn btn-link pull-right" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Having trouble paying with PayPal? Try clearing your browser cookies or open an icognito window and try again. Email us at negaca@capoeiracambridge.co.uk if you are unable to pay.">help</button>
 					</div>
@@ -98,7 +98,7 @@ The detailed schedule for **Saturday** is as follows (scroll down for weekend sc
 
 You will have a chance to take a shower at Chesterton Sports Centre after the event. The Arbury Community Centre where the event continues is a [20min walking distance](https://www.google.com/maps/dir/Chesterton+Sports+Centre,+Chesterton+Community+college,+Gilbert+Rd,+Cambridge+CB4+3NY/Arbury+Community+Centre,+Campkin+Road,+Cambridge/@52.221463,0.1220654,16z/data=!3m2!4b1!5s0x47d870ea1c5184eb:0x507b7152a433da45!4m14!4m13!1m5!1m1!1s0x47d870ea1fcbb12d:0xe624eb2b6b1e0d7e!2m2!1d0.121782!2d52.217649!1m5!1m1!1s0x47d870e44f74d901:0xead18248f0504df6!2m2!1d0.1286019!2d52.226313!3e2?target=_blank).
 
-* 7 - 9pm: Hot buffet, raffle for two special items :)
+* 7 - 9pm: Hot buffet
 * 9pm - midnight: Brazilian party! (open to Negaça students and batizado guests)
 
 If you need accommodation for Friday or Saturday night, please [get in touch](mailto:negaca@capoeiracambridge.co.uk) as soon as possible!

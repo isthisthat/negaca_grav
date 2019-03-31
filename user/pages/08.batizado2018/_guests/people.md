@@ -1,15 +1,15 @@
 ---
 title: 'Special Guests'
-media_order: 'mestre_irani.jpg,mestre_zangado.jpg,mestre_pedro.jpg,mestre_estrangeiro.jpg,mestre_olho_de_gato.jpg,mestre_ceguinho.jpg,contramestre_edinho.png,professor_coisado.jpg,mestre_chitaozinho.jpg'
+media_order: 'mestre_zangado.jpg,mestre_pedro.jpg,Mestre Piolho.jpeg,mestre_estrangeiro.jpg,mestre_olho_de_gato.jpg,mestre_ceguinho.jpg,Mestre Barao.jpeg,Contramestre Tropeco.jpeg,professor_coisado.jpg,mestre_chitaozinho.jpg'
 menu: guests
 ---
 
-* **Mestre Irani**, CDO Natal, Brazil
 * **Mestre Zangado**, CDO Marseille, France
 * **Mestre Pedro**, Senzala, Cambridge, UK
+* **Mestre Piolho**, CDO Chester, UK
 * **Mestre Estrangeiro**, CDO Paris, France
 * **Mestre Olho de Gato**, Grupo Negaça Capoeira, Canindé, Brasil
 * **Mestre Ceguinho**, CDO Holanda, Netherlands
-* **Contramestre Edinho**, CDO Ile-de-France, France
+* **Mestre Barão**, Barracao, France
+* **Contramestre Tropeço**, Sou Capoeira, Brasil
 * **Professor Coisado**, Grupo Negaça Capoeira, Brasil
-* **Instrutor Erialdo**, Grupo Negaça Capoeira, Brasil

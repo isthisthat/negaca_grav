@@ -24,7 +24,7 @@ Gilbert Road,
 Cambridge, CB4 3NY](https://goo.gl/maps/Zp3w3X9Xhs32)
 * 11am - 5:30pm
 
-### Hot buffet & raffle
+### Hot buffet
 [**Arbury Community Centre**  
 Campkin Rd,
 Cambridge, CB4 2LD](https://goo.gl/maps/hJyerpjLe1A2)
@@ -46,6 +46,6 @@ Cambridge, CB4 2LD](https://goo.gl/maps/hJyerpjLe1A2)
 [**28th Scout Hut**  
 Flamesteed Road,
 Cambridge, CB1 3QU](https://goo.gl/maps/wSZbnx9icyn)
-* 11am - 5pm
+* 12pm - 5pm
 
 ==<a href="#info">book now</a>==

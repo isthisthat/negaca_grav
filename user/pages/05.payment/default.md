@@ -48,6 +48,10 @@ The grades for 13+ year olds and corresponding prices are as follows. Your teach
 
 - Instrutor >7 years: £120  
 ![](belt6.png)
+
+### Batizado Schedule and Activities for adults
+
+Please see the [main page](/batizado2018#schedule)
   
 &nbsp;
 &nbsp;
@@ -74,11 +78,11 @@ Children under the age of 13 have the following grade system and prices:
 - Child student <5 years: £45  
 ![](ibelt5.png)  
 
-### Batizado Schedule and Activities
+### Batizado Schedule and Activities for children
 
 The Batizado will develop over three days; children's activities are planned for Friday 15th June and Saturday 16th June, following the tentative schedule below:
 
-#### Friday 15th June: 6:30pm start
+#### Children - Friday 15th June: 6:30pm start (Saffron Walden, Golden Acre Community Centre, CB11 4BL)
 
 * 18:30 - 19:00: Student Registration
 * 19:00 - 19:30: 1st children's workshop
@@ -87,7 +91,7 @@ The Batizado will develop over three days; children's activities are planned for
 * 20:00 - 20:30: Adults workshop
 * 20:30 - 21:00: Opening Roda
 
-#### Saturday 16th June: 11:15am start
+#### Children - Saturday 16th June: 11:15am start (Cambridge, Chesterton Sports Centre, CB4 3NY)
 
 * 11:15 - 11:30: Registration
 * 11:30 - 12:00: 1st children's workshop
@@ -107,20 +111,19 @@ The Batizado will develop over three days; children's activities are planned for
   
 ## Student Payment
 
-### Adults
-1. Adults, please choose the "base price" level. You will be able to pay the difference corresponding to your new level (if any) after the event. Prices are listed [above](#adultgrades).
+### Instructions for Adults:
+1. Adults, please choose the "base price" level. You will be able to pay the **difference** corresponding to your new level (if any) after the event. Prices are listed [above](#adultgrades) (e.g. if you're getting your first belt, please pay £80 here and £10 after the batizado for a total of £90).
 2. Choose your training location from the drop-down menu: Cambridge, Saffron Walden, Stapleford or Cambourne.
-3. The photographic consent is for *children only* and complies with the [GNC photographic policy](Photopolicyconsentform_2018.pdf?target=_blank). However, if you have any concerns, please feel free to choose an option that's right for you.
+3. The photographic consent is for *children only* and complies with the [GNC photographic policy](Photopolicyconsentform_2018.pdf?target=_blank). However, if you have any concerns, please speak to an instructor before the batizado.
 4. Complete your payment.
 
-### Children/Parents
-Instructions:  
+### Instructions for Children/Parents:
 1. Children/Parents, please speak to your instructor and choose the appropriate level.
 2. Choose your training location from the drop-down menu: Cambridge, Saffron Walden, Stapleford or Cambourne.
 4. Enter the student's name.
 5. The photographic consent can be expressed in the drop down and is equivalent to having completed and signed the [**form**](Photopolicyconsentform_2018.pdf?target=_blank) on the date of payment. If your preferences are not expressed in the drop down, please print and fill out the [**form**](Photopolicyconsentform_2018.pdf?target=_blank) and hand it over to your instructor as soon as possible and before the Batizado.
 6. Complete your payment. If you're a parent paying for multiple children, please repeat the process for each child.
-
+<hr>
     <div class="row" id="pay">
         <div class="col-md-8">
             <div class="panel panel-primary">
@@ -167,7 +170,7 @@ Instructions:
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="os3" class="col-sm-4 control-label">Photographic consent</label>
+                            <label for="os3" class="col-sm-4 control-label">Child photographic consent</label>
                             <div class="col-sm-8">
                                 <select class="form-control" name="os3" id="os3">
                                     <option value="Any photo/All purposes">Any photo/All purposes</option>

@@ -2,6 +2,18 @@
 title: Announcements
 ---
 
+### ➡ January is bring a friend to capoeira month!
+* **2 for 1 classes** when you bring a friend to try capoeira on Thursdays beginners! Spread the love, help us grow, get a free class ;)
+
+### ➡ Back to class Schedule 2019 CHILDREN
+* **Cambridge** Capoeira club children: First class in 2019 is **Friday, January 11th, 2019**
+* **Saffron Walden** Capoeira club children: First class in 2019 is **Wednesday, January 16th, 2019**
+* Please contact [**Manuela**](mailto:manuela.gnc@gmail.com) for availability in the Cambridge and Saffron Walden kids clubs
+
+### ➡ Save the date!
+* Our next batizado will be **June 7-9, 2019**! More details to come
+
+<!--
 ### ➡ [**GNC Batizado 2018**](/batizado2018)!
 Mark your calendar for the Grupo Negaça Capoeira Batizado **June 15-17, 2018**! Join us to celebrate 10yrs of Negaça in the UK! Book your tickets [**here**](/batizado2018#info)
 
@@ -9,7 +21,6 @@ Mark your calendar for the Grupo Negaça Capoeira Batizado **June 15-17, 2018**!
 Taught by Mestre Chitãozinho, this new class starts on the 28th February and is open to complete beginners with all Capoeira levels welcome. Check out the details in the [schedule](#classes)
 * Please contact [**Helen**](mailto:capoeiracambs@gmail.com) for availability in the Cambourne class
 
-<!--
 ### ➡ Easter Holidays 2018 CHILDREN
 * Cambridge Capoeira club children:  Friday 30/03/2018 all classes on holiday [schedule](#classes)
 * Saffron Walden Capoeira club children: Wednesday 4/04/2018 all classes on holiday [schedule](#classes)
@@ -31,4 +42,8 @@ Check out the detailed [schedule](#classes) of beginner classes and [**sign-up h
 
 * Please contact [**Manuela**](mailto:manuela.gnc@gmail.com) for place availability in the Cambridge and Saffron Walden kids clubs.
 * Please contact [**Susannah**](mailto:enganosa.gnc@gmail.com) for place availability in the Stapleford kids clubs.
+
+### ➡ [Mill Road Winter Fair 2018](http://www.millroadwinterfair.org/performers-2018/)
+* Our street roda is <font color="red">cancelled</font> due to weather and low interest but we still want to meet up for a coffee on **Saturday, December 1st @ 12:00** [in front of the Co-op on Mill Road, Cambridge](https://goo.gl/maps/ErsZBUaDUn72)!
+
 -->

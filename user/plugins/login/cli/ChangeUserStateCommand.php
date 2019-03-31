@@ -92,7 +92,7 @@ class ChangeUserStateCommand extends ConsoleCommand
                     throw new \RuntimeException('Username "' . $value . '" does not exist, please pick another username');
                 };
 
-                return true;
+                return $value;
             });
 
             $username = $helper->ask($this->input, $this->output, $question);
@@ -116,7 +116,7 @@ class ChangeUserStateCommand extends ConsoleCommand
         }
 
         // Lowercase the username for the filename
-        $username = strtolower($username);
+        $username = mb_strtolower($username);
 
         /** @var UniformResourceLocator $locator */
         $locator = Grav::instance()['locator'];
