@@ -1,15 +1,15 @@
 ---
-title: 'Batizado 2018 - Student payment'
-media_order: 'belt1.png,belt2.png,belt3.png,belt4.png,belt5.png,belt6.png,belt7.png,belt8.png,belt9.png,belt10.png,belt11.png,ibelt1.png,ibelt2.png,ibelt3.png,ibelt4.png,ibelt5.png,ibelt6.png,ibelt7.png,negaca.png,Photopolicyconsentform_2018.pdf'
+title: 'Batizado 2019 - Student payment'
+media_order: 'belt1.png,belt2.png,belt3.png,belt4.png,belt5.png,belt6.png,belt7.png,belt8.png,belt9.png,belt10.png,belt11.png,ibelt1.png,ibelt2.png,ibelt3.png,ibelt4.png,ibelt5.png,ibelt6.png,ibelt7.png,negaca.png'
 menu: payment
 visible: false
 ---
 
 ![](negaca.png)
 
-This is a private page containing important information about the 10th Grupo Negaça Capoeira Batizado, which will take place on June 15-17, 2018. This also marks the 10-year anniversary of Grupo Negaça in the UK!  
+This is a private page containing important information about the 11th Grupo Negaça Capoeira Batizado, which will take place on June 7-9, 2019.  
 **Please read carefully** and scroll to the end for [student payment](#pay).  
-Detailed information about the Batizado schedule and locations can be found [➡ here!](/batizado2018)
+Detailed information about the Batizado schedule and locations can be found [➡ here!](/batizado2019)
 
 ## About the Negaça Batizado
 
@@ -51,7 +51,7 @@ The grades for 13+ year olds and corresponding prices are as follows. Your teach
 
 ### Batizado Schedule and Activities for adults
 
-Please see the [main page](/batizado2018#schedule)
+Please see the [main page](/batizado2019#schedule)
   
 &nbsp;
 &nbsp;
@@ -61,50 +61,48 @@ Please see the [main page](/batizado2018#schedule)
 
 Children under the age of 13 have the following grade system and prices:  
 
-- Child student not getting a belt this year: £30  
+- Child student not getting a belt this year: £35  
 
-- Child student <1 year: £35  
+- Child student <1 year: £45  
 ![](ibelt1.png)  
 
-- Child student <2 years: £35  
+- Child student <2 years: £45  
 ![](ibelt2.png)  
 
-- Child student <3 years: £40  
+- Child student <3 years: £45  
 ![](ibelt3.png)  
 
-- Child student <4 years: £45  
+- Child student <4 years: £55  
 ![](ibelt4.png)  
 
-- Child student <5 years: £45  
+- Child student <5 years: £55  
 ![](ibelt5.png)  
 
 ### Batizado Schedule and Activities for children
 
-The Batizado will develop over three days; children's activities are planned for Friday 15th June and Saturday 16th June, following the tentative schedule below:
+The Batizado will develop over three days; children's activities are planned for Friday 7th June (first & second class) and Saturday 8th June (second class only), following the tentative schedule below:
 
-#### Children - Friday 15th June: 6:30pm start (Saffron Walden, Golden Acre Community Centre, CB11 4BL)
+#### All Children - Friday 7th June: 6:30pm start (Scout Hut, Cambridge, CB1 3QU)
 
-* 18:30 - 19:00: Student Registration
-* 19:00 - 19:30: 1st children's workshop
-* 19:30 - 20:00: 2nd children's workshop
-* Children's activities end at 20:00. Children and parents are walcome to stay for the adult workshop and roda
-* 20:00 - 20:30: Adults workshop
+* 18:00 - 18:30: Student Registration
+* 18:30 - 19:00: 1st children's workshop
+* 19:00 - 19:30: 2nd children's workshop
+* 19:30 - 20:30: CHILDREN'S BATIZADO CEREMONY
 * 20:30 - 21:00: Opening Roda
 
-#### Children - Saturday 16th June: 11:15am start (Cambridge, Chesterton Sports Centre, CB4 3NY)
+During the BATIZADO CEREMONY, each child will play a 1-2minute Capoeira game with one/two Mestres (depending on the level of the child's belt) and get their belt (cordao) and certificate. At each belt (cordao), a group photo will be taken, as well as one group photo per class of training.  
+
+#### 2nd Class Children - Saturday 16th June: 11:15am start (Cambridge, Chesterton Sports Centre, CB4 3NY)
 
 * 11:15 - 11:30: Registration
-* 11:30 - 12:00: 1st children's workshop
-* 12:00 - 12:30: Lunch Break
-* 12:30 - 13:00: 2nd children's workshop
-* 13:00 - 13:15: Short Break
-* 13:15 - 13:45: 3rd children's workshop
-* 13:45 - 14:00: Children prepare for Batizado (receive t-shirts, etc)
-* 14:00 - 15:00: Children's batizado
-* Each child will play a 1-2minute Capoeira game with one/two Mestres (depending on the level of the child's belt) and get their belt (cordao) and certificate. At each belt (cordao), a group photo will be taken, as well as one group photo per class of training.
-* Children's activities end at 15:00. Children and parents are walcome to stay for the adult batizado and rodas
-* 15:00 - 16:00: Adult batizado
-* 16:00 - 17:30: Adult rodas
+* 11:30 - 12:00: 1st All-levels workshop (children of second class may participate)
+* 12:00 - 12:30: 2nd All-levels workshop  (children of second class may participate)
+* 12:30 - 13:00: Lunch Break
+* 13:00 - 13:30: 3rd All-levels workshop  (children of second class may participate)
+* 13:30 - 14:00: 4th All-levels workshop  (children of second class may participate)
+* 14:00 - 14:30: Short break
+* 14:30 - 15:30: Adult batizado
+* 15:30 - 17:00: Adult rodas
   
 &nbsp;
 &nbsp;
@@ -112,16 +110,16 @@ The Batizado will develop over three days; children's activities are planned for
 ## Student Payment
 
 ### Instructions for Adults:
-1. Adults, please choose the "base price" level. You will be able to pay the **difference** corresponding to your new level (if any) after the event. Prices are listed [above](#adultgrades) (e.g. if you're getting your first belt, please pay £80 here and £10 after the batizado for a total of £90).
-2. Choose your training location from the drop-down menu: Cambridge, Saffron Walden, Stapleford or Cambourne.
-3. The photographic consent is for *children only* and complies with the [GNC photographic policy](Photopolicyconsentform_2018.pdf?target=_blank). However, if you have any concerns, please speak to an instructor before the batizado.
+1. Adults receiving their first belt, please choose "getting 1st belt". If you're unsure whether you're getting a belt, please choose "base price". You will be able to pay the *difference* corresponding to your new level (if any) after the event. Prices are listed [above](#adultgrades) (e.g. if you get your third belt, please pay £80 here and £10 after the batizado for a total of £90). 
+2. Choose your training location from the drop-down menu: Cambridge or Saffron Walden.
+3. The photographic consent is for *children only* and complies with the [GNC photographic policy](Photopolicyconsentform.pdf?target=_blank). However, if you have any concerns, please speak to an instructor before the batizado.
 4. Complete your payment.
 
 ### Instructions for Children/Parents:
 1. Children/Parents, please speak to your instructor and choose the appropriate level.
 2. Choose your training location from the drop-down menu: Cambridge, Saffron Walden, Stapleford or Cambourne.
 4. Enter the student's name.
-5. The photographic consent can be expressed in the drop down and is equivalent to having completed and signed the [**form**](Photopolicyconsentform_2018.pdf?target=_blank) on the date of payment. If your preferences are not expressed in the drop down, please print and fill out the [**form**](Photopolicyconsentform_2018.pdf?target=_blank) and hand it over to your instructor as soon as possible and before the Batizado.
+5. The photographic consent can be expressed in the drop down and is equivalent to having completed and signed the [**form**](Photopolicyconsentform.pdf?target=_blank) on the date of payment. If your preferences are not expressed in the drop down, please print and fill out the [**form**](Photopolicyconsentform.pdf?target=_blank) and hand it over to your instructor as soon as possible and before the Batizado.
 6. Complete your payment. If you're a parent paying for multiple children, please repeat the process for each child.
 <hr>
     <div class="row" id="pay">
@@ -137,17 +135,17 @@ The Batizado will develop over three days; children's activities are planned for
                         <input type="hidden" name="on2" value="Student name">
                         <input type="hidden" name="on3" value="Photographic consent">
                         <input type="hidden" name="cmd" value="_s-xclick">
-                        <input type="hidden" name="hosted_button_id" value="85TMWEY245EZ6">
+                        <input type="hidden" name="hosted_button_id" value="2CCCMPUUY7FQJ">
                         <input type="hidden" name="currency_code" value="GBP">
                         <div class="form-group">
                             <label for="os0" class="col-sm-4 control-label">Select your level</label>
                             <div class="col-sm-8">
                                 <select class="form-control" name="os0" id="os0">
                                     <option value="Adult Student - base price -">Adult Student - base price - £80.00 GBP</option>
-                                    <option value="Child Student - not getting a belt -">Child Student - not getting a belt - £30.00 GBP</option>
-                                    <option value="Child Student - getting 1st/2nd belt -">Child Student - getting 1st/2nd belt - £35.00 GBP</option>
-                                    <option value="Child Student - getting 3rd belt -">Child Student - getting 3rd belt - £40.00 GBP</option>
-                                    <option value="Child Student - getting 4th/5th belt -">Child Student - getting 4th/5th belt - £45.00 GBP</option>
+                                    <option value="Adult Student - getting 1st belt -">Adult Student - getting 1st belt - £90.00 GBP</option>
+                                    <option value="Child Student - not getting a belt -">Child Student - not getting a belt - £35.00 GBP</option>
+                                    <option value="Child Student - getting 1st/2nd/3rd belt -">Child Student - getting 1st/2nd/3rd belt - £45.00 GBP</option>
+                                    <option value="Child Student - getting 4th/5th belt -">Child Student - getting 4th/5th belt - £55.00 GBP</option>
                                 </select>
                             </div>
                         </div>
@@ -157,8 +155,6 @@ The Batizado will develop over three days; children's activities are planned for
                                 <select class="form-control" name="os1" id="os1">
                                     <option value="Cambridge">Cambridge </option>
                                     <option value="Saffron Walden">Saffron Walden </option>
-                                    <option value="Stapleford">Stapleford </option>
-                                    <option value="Cambourne">Cambourne </option>
                                     <option value="Bishops Stortford">Bishops Stortford</option>
                                 </select>
                             </div>
