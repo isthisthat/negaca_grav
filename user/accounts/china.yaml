@@ -18,6 +18,7 @@ access:
     statistics: 'true'
     plugins: 'true'
     themes: 'true'
+    tools: 'true'
     users: 'true'
   site:
     login: 'true'

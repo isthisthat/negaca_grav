@@ -19,7 +19,7 @@
   	    {% for page in pages.children %}
   		    {% if page.visible %}
   		        {% set active = (page.active or page.activeChild) ? 'active' : '' %}
-                {% set children = page.header.spy_items|count > 0 %}
+                {% set children = page.header.spy_items.children.count > 0 %}
 		        <li class="{{ active }}"><a href="{% if active %}#top{% else %}{{ page.url }}{% endif %}">{{ page.menu|capitalize }}{% if active and children %} <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>{% endif %}</a></li>
                 {% if active and children %}
                     {% for item in page.header.spy_items|split(' ') %}
