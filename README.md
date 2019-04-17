@@ -59,20 +59,20 @@ To contribute your changes back to the main repository:
 
 ### Installing resources
 
-    curl -sS https://getcomposer.org/installer | php56
-    php56 bin/composer.phar install --no-dev -o
+    curl -sS https://getcomposer.org/installer | php72
+    php72 bin/composer.phar install --no-dev -o
 
 This will create the `vendor` directory with all php dependencies
 
 You may also have to run
 
     git clean -xfd
-    php56 bin/grav install
+    php72 bin/grav install
 
 To update GRAV and plugins run:
 
-    php56 bin/gpm selfupgrade -f
-    php56 bin/grav install
+    php72 bin/gpm self-upgrade
+    php72 bin/gpm update
 
 #### Adding external css
 
@@ -97,11 +97,11 @@ You can use the installed css in your twig templates as, e.g.
 
 Make a new user:
 
-    php56 ./bin/plugin login newuser
+    php72 ./bin/plugin login newuser
 
 Change a password:
 
-    php56 ./bin/plugin login newpass
+    php72 ./bin/plugin login newpass
 
 ### Making the batizado page
 
@@ -109,6 +109,7 @@ Change a password:
 2. Go back to Pages. You'll see the new batizado page tree. Edit the subpages with the new info
 3. To add a new background image, go to the "top" subpage and drop a new 1440x960 image in the page media. Delete the previous background image.
 4. In the "special guests" subpage, edit the list and add 200x200 images in the page media. Those will be shown as thumbnails. You can also re-order the images by dragging and dropping in the page media.
-5. To edit the paypal payment, make changes in the "capoeira festival" page. This code is in html. You need to make the same changes in the paypal account (username: negaca@capoeiracambridge.co.uk). Login and go to Tools -> PayPal Buttons. Copy a previous button to make a new one.
+5. To edit the paypal payment, make changes in the "capoeira festival" page. This code is in html. You need to make _the same_ changes in the paypal account (username: negaca@capoeiracambridge.co.uk). Login and go to Tools -> PayPal Buttons. Copy a previous button to make a new one. After you make changes on paypal, copy the `hosted_button_id` to the form in the batizado page:  
+    <input type="hidden" name="hosted_button_id" value="XXXXXXXX">  
 6. Edit the student payment page including the paypal html. Same as above.
 
