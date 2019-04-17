@@ -47,7 +47,7 @@ This website works with [Grav](https://getgrav.org/). The following instructions
 * Open GitHub Desktop and click on the GitHub Desktop menu > Preferences > Accounts > login to your github.com account
 * Click on the `+` button, click on the "Clone" tab and select "stathisforeva" (your forked version of this repository)
 * You now have a versioned copy of the website on your local computer! To start playing around, open Documents > workspace > negaca\_grav in your favourite editor and make changes
-* To see your changes, you need to install a local web server (e.g. Apache with PHP 5.5+). See [Grav's requirements](https://learn.getgrav.org/basics/requirements)
+* To see your changes, you need to install a local web server (e.g. Apache with PHP 7.2+). See [Grav's requirements](https://learn.getgrav.org/basics/requirements)
 * When you're happy with your changes, go back to GitHub Desktop, review your changes, write a summary of what you've done and click on "Commit to master"
 
 ### To suggest changes back
@@ -73,6 +73,13 @@ To update GRAV and plugins run:
 
     php72 bin/gpm self-upgrade
     php72 bin/gpm update
+
+#### Pulling from git
+
+After a `git pull` you may also have to run:
+
+    git clean -xfd
+    php72 bin/grav install
 
 #### Adding external css
 
