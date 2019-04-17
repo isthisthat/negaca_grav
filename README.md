@@ -109,7 +109,6 @@ Change a password:
 2. Go back to Pages. You'll see the new batizado page tree. Edit the subpages with the new info
 3. To add a new background image, go to the "top" subpage and drop a new 1440x960 image in the page media. Delete the previous background image.
 4. In the "special guests" subpage, edit the list and add 200x200 images in the page media. Those will be shown as thumbnails. You can also re-order the images by dragging and dropping in the page media.
-5. To edit the paypal payment, make changes in the "capoeira festival" page. This code is in html. You need to make _the same_ changes in the paypal account (username: negaca@capoeiracambridge.co.uk). Login and go to Tools -> PayPal Buttons. Copy a previous button to make a new one. After you make changes on paypal, copy the `hosted_button_id` to the form in the batizado page:  
-    <input type="hidden" name="hosted_button_id" value="XXXXXXXX">  
+5. To edit the paypal payment, make changes in the "capoeira festival" page. This code is in html. You need to make _the same_ changes in the paypal account (username: negaca@capoeiracambridge.co.uk). Login and go to Tools -> PayPal Buttons. Copy a previous button to make a new one. After you make changes on paypal, copy the `hosted_button_id` to the form in the batizado page: `<input type="hidden" name="hosted_button_id" value="copy_code_here">`
 6. Edit the student payment page including the paypal html. Same as above.
 
