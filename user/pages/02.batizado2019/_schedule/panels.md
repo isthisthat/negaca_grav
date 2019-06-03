@@ -6,7 +6,7 @@ textformatter: false
 
 ==Friday, 7<sup>th</sup> June 2019==
 
-### Kids Batizado & Party
+### Kids Batizado & Party, Opening Roda
 [**28th Scout Hut**  
 Flamesteed Road,
 Cambridge, CB1 3QU](https://goo.gl/maps/wSZbnx9icyn?target=_blank)
@@ -36,10 +36,22 @@ Cambridge, CB4 3DL](https://goo.gl/maps/fYHaPGBU7DR2?target=_blank)
 
 ==Sunday, 9<sup>th</sup> June 2019==
 
-### Workshops & Closing Rodas
+### Workshops, Maculele & Closing Rodas
 [**28th Scout Hut**  
 Flamesteed Road,
 Cambridge, CB1 3QU](https://goo.gl/maps/wSZbnx9icyn?target=_blank)
 * 12pm - 5pm
 
 ==<a href="#info">book now</a>==
+
+---
+
+==Saturday, 8<sup>th</sup> June 2019==
+
+### Club Exchange 🥋💃🧘‍♂️🤼‍♂️
+[**Chesterton Sports Centre**  
+Gilbert Road,
+Cambridge, CB4 3NY](https://goo.gl/maps/Zp3w3X9Xhs32?target=_blank)
+* 2 - 3pm
+
+==<a href="https://forms.gle/bT87WBXapA7hmXHk8?target=_blank">register now</a>==

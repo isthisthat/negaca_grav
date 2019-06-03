@@ -104,16 +104,14 @@
                             {% block append %}{% endblock append %}
                             {% if inline_errors and errors %}
                                 <div class="{{ form_errors_classes ?: 'form-errors' }}">
-                                    {% for error in errors %}
-                                        <p class="form-message"><i class="fa fa-exclamation-circle"></i> {{ error }}</p>
-                                    {% endfor %}
+                                  <p class="form-message"><i class="fa fa-exclamation-circle"></i> {{ errors|first }}</p>
                                 </div>
                             {% endif %}
                         </div>
                     {% endblock %}
                 {% endblock %}
                 {% if field.description %}
-                    <div class="form-extra-wrapper {{ field.size|e }} {{ field.wrapper_classes }}">
+                    <div class="form-extra-wrapper {{ field.wrapper_classes }}">
                         <span class="form-description">
                             {% if field.markdown %}
                                 {{ field.description|t|markdown(false)|raw }}

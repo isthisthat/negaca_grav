@@ -1,14 +1,14 @@
 ---
-title: 'Batizado 2019 - Student payment'
+title: 'Batizado 2019 - Student Information'
 media_order: 'belt1.png,belt2.png,belt3.png,belt4.png,belt5.png,belt6.png,belt7.png,belt8.png,belt9.png,belt10.png,belt11.png,ibelt1.png,ibelt2.png,ibelt3.png,ibelt4.png,ibelt5.png,ibelt6.png,ibelt7.png,negaca.png'
-menu: payment
+menu: students
 visible: false
 ---
 
 ![](negaca.png)
 
 This is a private page containing important information about the 11th Grupo Negaça Capoeira Batizado, which will take place on June 7-9, 2019.  
-**Please read carefully** and scroll to the end for [student payment](#pay).  
+**Please read carefully** and complete the [student payment](#pay) if you'd like to particiapte in this year's batizado.  
 Detailed information about the Batizado schedule and locations can be found [➡ here!](/batizado2019)
 
 ## About the Negaça Batizado
@@ -87,12 +87,12 @@ The Batizado will develop over three days; children's activities are planned for
 * 18:00 - 18:30: Student Registration
 * 18:30 - 19:00: 1st children's workshop
 * 19:00 - 19:30: 2nd children's workshop
-* 19:30 - 20:30: CHILDREN'S BATIZADO CEREMONY
+* 19:30 - 20:30: **CHILDREN'S BATIZADO CEREMONY**
 * 20:30 - 21:00: Opening Roda
 
-During the BATIZADO CEREMONY, each child will play a 1-2minute Capoeira game with one/two Mestres (depending on the level of the child's belt) and get their belt (cordao) and certificate. At each belt (cordao), a group photo will be taken, as well as one group photo per class of training.  
+During the **BATIZADO CEREMONY**, each child will play a 1-2 minute Capoeira game with one/two Mestres (depending on the level of the child's belt) and get their belt (cordao) and certificate. At each belt (cordao), a group photo will be taken, as well as one group photo per class of training.  
 
-#### 2nd Class Children - Saturday 16th June: 11:15am start (Cambridge, Chesterton Sports Centre, CB4 3NY)
+#### 2nd Class Children - Saturday 8th June: 11:15am start (Cambridge, Chesterton Sports Centre, CB4 3NY)
 
 * 11:15 - 11:30: Registration
 * 11:30 - 12:00: 1st All-levels workshop (children of second class may participate)
@@ -110,7 +110,7 @@ During the BATIZADO CEREMONY, each child will play a 1-2minute Capoeira game wit
 ## Student Payment
 
 ### Instructions for Adults:
-1. Adults receiving their first belt, please choose "getting 1st belt". If you're unsure whether you're getting a belt, please choose "base price". You will be able to pay the *difference* corresponding to your new level (if any) after the event. Prices are listed [above](#adultgrades) (e.g. if you get your third belt, please pay £80 here and £10 after the batizado for a total of £90). 
+1. Adults receiving their first or second belt, please choose "getting 1st belt". If you're unsure whether you're getting a belt, please choose "base price". You will be able to pay the *difference* corresponding to your new level (if any) after the event. Prices are listed [above](#adultgrades) (e.g. if you get your third belt, please pay £80 here and £10 after the batizado for a total of £90). 
 2. Choose your training location from the drop-down menu: Cambridge or Saffron Walden.
 3. The photographic consent is for *children only* and complies with the [GNC photographic policy](Photopolicyconsentform.pdf?target=_blank). However, if you have any concerns, please speak to an instructor before the batizado.
 4. Complete your payment.

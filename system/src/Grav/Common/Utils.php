@@ -975,6 +975,7 @@ abstract class Utils
      * @param string $string The path
      *
      * @return bool
+     *
      */
     public static function pathPrefixedByLangCode($string)
     {
@@ -983,8 +984,13 @@ abstract class Utils
         }
 
         $languages_enabled = Grav::instance()['config']->get('system.languages.supported', []);
+        $parts = explode('/', trim($string, '/'));
 
-        return $string[0] === '/' && $string[3] === '/' && \in_array(substr($string, 1, 2), $languages_enabled, true);
+        if (count($parts) > 0 && in_array($parts[0], $languages_enabled)) {
+            return true;
+        }
+
+        return false;
     }
 
     /**
@@ -1341,6 +1347,8 @@ abstract class Utils
             $post_max_size = static::parseSize(ini_get('post_max_size'));
             if ($post_max_size > 0) {
                 $max_size = $post_max_size;
+            } else {
+                $max_size = 0;
             }
 
             $upload_max = static::parseSize(ini_get('upload_max_filesize'));
@@ -1404,11 +1412,12 @@ abstract class Utils
     {
         $unit = preg_replace('/[^bkmgtpezy]/i', '', $size);
         $size = preg_replace('/[^0-9\.]/', '', $size);
+
         if ($unit) {
-            return round($size * pow(1024, stripos('bkmgtpezy', $unit[0])));
-        } else {
-            return round($size);
+            $size = $size * pow(1024, stripos('bkmgtpezy', $unit[0]));
         }
+
+        return (int) abs(round($size));
     }
 
     /**
@@ -1468,5 +1477,45 @@ abstract class Utils
         }
 
         return $string;
+    }
+
+    /**
+     * Find the subnet of an ip with CIDR prefix size
+     *
+     * @param string $ip
+     * @param int $prefix
+     *
+     * @return string
+     * @throws \InvalidArgumentException if provided an invalid IP
+     */
+    public static function getSubnet($ip, $prefix = 64)
+    {
+        if (!filter_var($ip, FILTER_VALIDATE_IP)) {
+            throw new \InvalidArgumentException('Invalid IP: ' . $ip);
+        }
+
+        // Packed representation of IP
+        $ip = inet_pton($ip);
+
+        // Maximum netmask length = same as packed address
+        $len = 8*strlen($ip);
+        if ($prefix > $len) $prefix = $len;
+
+        $mask  = str_repeat('f', $prefix>>2);
+
+        switch($prefix & 3)
+        {
+            case 3: $mask .= 'e'; break;
+            case 2: $mask .= 'c'; break;
+            case 1: $mask .= '8'; break;
+        }
+        $mask = str_pad($mask, $len>>2, '0');
+
+        // Packed representation of netmask
+        $mask = pack('H*', $mask);
+        // Bitwise - Take all bits that are both 1 to generate subnet
+        $subnet = inet_ntop($ip & $mask);
+
+        return $subnet;
     }
 }

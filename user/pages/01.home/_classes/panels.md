@@ -43,14 +43,17 @@ Saffron Walden, Essex, CB11 4BL](https://goo.gl/maps/74EXohV3jAK2)
 
 ---
 
-==Cambourne==
+==Granta Park==
 
-<!--### Wednesday
-* All Level Adults (beginners welcome)  
-7:30 - 8:30pm, £6 (£5 university/college students)
+### Monday
+* Beginner Adults
+12:15 - 1:00pm (free with Nuffield gym membership)
 
+[**The Apiary**  
+Granta Park, Cambridge, CB21 6GP](https://goo.gl/maps/GtTbpHJrBQvXcngx8)
+
+==contact <a href="mailto:china@capoeiracambridge.co.uk">China</a>==
+
+<!--
 [**The Hub (Meeting Room)**](https://goo.gl/maps/AbJS4WpZT372)
 -->
-* classes temporarily suspended
-
-==contact <a href="mailto:capoeiracambs@gmail.com">Helen</a>==

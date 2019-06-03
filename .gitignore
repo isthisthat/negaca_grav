@@ -5,3 +5,5 @@ vendor/*
 images/*
 assets/*
 tmp/*
+user/data/*/*
+user/data/*.*

@@ -1,6 +1,31 @@
+# v3.0.3
+## 05/09/2019
+
+1. [](#new)
+    * Added Text `field.copy-to-clipboard` which can be used by admin plugin
+1. [](#bugfix)
+    * Fixed Flex route issue in list page
+    * Fix flex-height of signature field
+    * Fix for broken `field.recaptcha_site_key` [#344](https://github.com/getgrav/grav-plugin-form/issues/344)    
+    * Fix for checkbox data lang string [#343](https://github.com/getgrav/grav-plugin-form/issues/343)
+    * Fix for duplicate inline error messages [#337](https://github.com/getgrav/grav-plugin-form/issues/337)
+    * Fixed bad folder permissions when creating folder for file uploads
+
+# v3.0.2
+## 04/22/2019
+
+1. [](#new)
+    * Support for Google Recaptcha theme (light/dark) doesn't work in v3 yet.
+1. [](#improved)
+    * Visual upgrade for form field descriptions [#335](https://github.com/getgrav/grav-plugin-form/pull/335)
+1. [](#bugfix)
+    * Fixed issue with `recaptcha_not_validated` property not being used    
+
 # v3.0.1
 ## 04/15/2019
 
+1. [](#new)
+    * Added support for form task in blueprint
 1. [](#bugfix)
     * Fix url field output in list view
 

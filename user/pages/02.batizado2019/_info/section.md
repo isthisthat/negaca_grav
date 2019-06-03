@@ -92,21 +92,22 @@ The detailed schedule for **Saturday** is as follows (scroll down for weekend sc
 * 12:30 - 1:00pm: Break
 * 1:00 - 1:40pm: Workshops **&ast;**
 * 1:40 - 2:00pm: Roda
-* 2:00 - 3:00pm: Workshops **&ast;**
+* 2:00 - 3:00pm: Angola Workshop & Club Exchange! **&ast;&ast;**
 * 3 - 4pm: Adult batizado
 * 4 - 5:00pm: Adult Roda
 
-<small>**&ast; Saturday workshops are open to adults, and kids from the _second_ Cambridge and Saffron Walden classes**</small>
+<small>**&ast; Saturday workshops are open to adults, and kids from the _second_ Cambridge and Saffron Walden classes**</small>  
+<small>**&ast;&ast; The club exchange is an opportunity for students of other sports and dance and MA clubs to experience capoeira! Participate in a special workshop (£10 at the door), and stay for the capoeira belt ceremony and Brazilian party. Please register [here!](https://forms.gle/bT87WBXapA7hmXHk8?target=_blank)**</small>  
 
 You will have a chance to take a shower at Chesterton Sports Centre after the event.  
-The buffet and party will be held at the NCI Sports & Social Club which is [a 15min walk](https://www.google.com/maps/dir/Chesterton+Sports+Centre,+Gilbert+Road,+Cambridge/N+C+I+Sports+%26+Social+Club,+Holland+St,+Cambridge+CB4+3DL/@52.2167932,0.1176356,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x47d870ea1fcbb12d:0xe624eb2b6b1e0d7e!2m2!1d0.121782!2d52.217649!1m5!1m1!1s0x47d870c0494f6295:0x40c36cb14d3d1844!2m2!1d0.1184323!2d52.2147148!3e2?target=_blank).
+The buffet and party will be held at the **NCI Sports & Social Club** which is [a 15min walk](https://www.google.com/maps/dir/Chesterton+Sports+Centre,+Gilbert+Road,+Cambridge/N+C+I+Sports+%26+Social+Club,+Holland+St,+Cambridge+CB4+3DL/@52.2167932,0.1176356,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x47d870ea1fcbb12d:0xe624eb2b6b1e0d7e!2m2!1d0.121782!2d52.217649!1m5!1m1!1s0x47d870c0494f6295:0x40c36cb14d3d1844!2m2!1d0.1184323!2d52.2147148!3e2?target=_blank).
 
-* 6:30 - 8pm: Hot buffet
+* 6:30 - 8pm: Hot buffet (£6 for adults, £4 for children, at the door)
 * 8pm - 11:45pm: Brazilian party 🎉🎉! (open to Negaça students and batizado guests)
 
 If you need accommodation for Friday or Saturday night, please [get in touch](mailto:negaca@capoeiracambridge.co.uk) as soon as possible!
 
 - - -
 
-###Please support our [**➡️ Facebook event 👍**](https://www.facebook.com/events/491688731338764/?target=_blank)
+###Please support our [**➡️ Facebook event 👍**](https://www.facebook.com/events/491688731338764/?target=_blank) and share the [**Club Exchange 🥋💃🧘‍♂️🤼‍♂️**](https://www.facebook.com/events/1744281499004904?target=_blank) with friends!
 

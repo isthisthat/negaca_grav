@@ -14,6 +14,8 @@ textformatter: false
 * Children class (10 to 15 years)  
 7:00 - 8:00pm, £4 (spaces available)
 
+* dates in May are: 3, 17, 24, 31 (10 there will be no class)
+
 [**28th Scout Hut**  
 Flamesteed Road,
 Cambridge, CB1 3QU](https://goo.gl/maps/wSZbnx9icyn)

@@ -3,15 +3,17 @@ title: Announcements
 ---
 
 ### ➡ 11th Negaca Batizado: June 7-9, 2019!
-* Don't miss our next batizado on **June 7-9, 2019**! [Details and tickets available **HERE**!](/batizado2019)
+* Don't miss our next capoeira festival on **June 7-9, 2019**! [Details and tickets available **HERE**!](/batizado2019)
 
-### ➡ Easter Holidays 2019 CHILDREN
-* Cambridge Capoeira club children: **Friday xx/04/2019** all classes on holiday [schedule](#classes)  
-* Saffron Walden Capoeira club children: **Wednesday xx/04/2019** all classes on holiday [schedule](#classes)  
+### ➡ Try capoeira at our Club Exchange on Saturday June 8!
+* A unique opportunity to try a special capoeira class during our annual event, tailored to students of other dance and MA clubs **June 8, 1:30pm**! [Details and bookings **HERE**!](https://www.facebook.com/events/1744281499004904)
+
+<!--
+### ➡ May 2019 Fridays Schedule CHILDREN
+* Cambridge Capoeira club children: dates in May are: 3, 17, 24, 31 (10th May there will be no class) [schedule](#classes)   
   
 * Please contact [**Manuela**](mailto:manuela.gnc@gmail.com) for availability in the Cambridge and Saffron Walden kids clubs.
 
-<!--
 ### ➡ January is bring a friend to capoeira month!
 * **2 for 1 classes** when you bring a friend to try capoeira on Thursdays beginners! Spread the love, help us grow, get a free class ;)
 
