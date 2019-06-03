@@ -1,134 +1,121 @@
-# ![](https://avatars1.githubusercontent.com/u/8237355?v=2&s=50) Grav
+# Negaça Website
 
-[![PHPStan](https://img.shields.io/badge/PHPStan-enabled-brightgreen.svg?style=flat)](https://github.com/phpstan/phpstan)
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/cfd20465-d0f8-4a0a-8444-467f5b5f16ad/mini.png)](https://insight.sensiolabs.com/projects/cfd20465-d0f8-4a0a-8444-467f5b5f16ad)
-[![Discord](https://img.shields.io/discord/501836936584101899.svg?logo=discord&colorB=728ADA&label=Discord%20Chat)](https://chat.getgrav.org)
- [![Build Status](https://travis-ci.org/getgrav/grav.svg?branch=develop)](https://travis-ci.org/getgrav/grav) [![OpenCollective](https://opencollective.com/grav/backers/badge.svg)](#backers) [![OpenCollective](https://opencollective.com/grav/sponsors/badge.svg)](#sponsors)
+## For administrators
 
-Grav is a **Fast**, **Simple**, and **Flexible**, file-based Web-platform.  There is **Zero** installation required.  Just extract the ZIP archive, and you are already up and running.  It follows similar principles to other flat-file CMS platforms, but has a different design philosophy than most. Grav comes with a powerful **Package Management System** to allow for simple installation and upgrading of plugins and themes, as well as simple updating of Grav itself.
+### Making a new page
 
-The underlying architecture of Grav is designed to use well-established and _best-in-class_ technologies to ensure that Grav is simple to use and easy to extend. Some of these key technologies include:
+You can either add a simple page with information, links and images (`Default`) or a page made up of snippets (`Modular`).
 
-* [Twig Templating](https://twig.sensiolabs.org/): for powerful control of the user interface
-* [Markdown](https://en.wikipedia.org/wiki/Markdown): for easy content creation
-* [YAML](https://yaml.org): for simple configuration
-* [Parsedown](https://parsedown.org/): for fast Markdown and Markdown Extra support
-* [Doctrine Cache](https://www.doctrine-project.org/projects/doctrine-orm/en/latest/reference/caching.html): layer for performance
-* [Pimple Dependency Injection Container](https://pimple.sensiolabs.org/): for extensibility and maintainability
-* [Symfony Event Dispatcher](https://symfony.com/doc/current/components/event_dispatcher/introduction.html): for plugin event handling
-* [Symfony Console](https://symfony.com/doc/current/components/console/introduction.html): for CLI interface
-* [Gregwar Image Library](https://github.com/Gregwar/Image): for dynamic image manipulation
+There are several types of modular sections:
 
-# Requirements
+* Section - just a titled section with a blank background
+* Panels - a section showing up as panels on a brown background
+* Jumbo - when you drop an image to this page, it will become a nice background (recommended size: 1440x960)
+* People - images (recommended size: 200x200) become circular sepia portraits and the name is used as a title
 
-- PHP 7.1.3 or higher. Check the [required modules list](https://learn.getgrav.org/basics/requirements#php-requirements)
-- Check the [Apache](https://learn.getgrav.org/basics/requirements#apache-requirements) or [IIS](https://learn.getgrav.org/basics/requirements#iis-requirements) requirements
+NOTE: the first modular needs to be called `top` for the menu to work correctly
 
-# QuickStart
+### The menu
 
-These are the options to get Grav:
+A page has a `title` and a `menu` title which can be different, e.g.:
 
-### Downloading a Grav Package
+    title: 'About Negaça'
+    menu: about
 
-You can download a **ready-built** package from the [Downloads page on https://getgrav.org](https://getgrav.org/downloads)
+#### Scrollspy
 
-### With Composer
+If your page contains sections you would like to appear on the menu, you need to define them in the page header as such, e.g.:
 
-You can create a new project with the latest **stable** Grav release with the following command:
+    title: Home
+    menu: Home
+    spy_items: 'classes children info'
 
-```
-$ composer create-project getgrav/grav ~/webroot/grav
-```
+### Hiding a page
 
-### From GitHub
+You can hide a page from the menu without deleting it. Click on the page, got to the Advanced tab, under Overrides, check the Visible box and turn the switch to Disabled. You can still visit the page by typing its url, you just won't see it in the menu.
 
-1. Clone the Grav repository from [https://github.com/getgrav/grav]() to a folder in the webroot of your server, e.g. `~/webroot/grav`. Launch a **terminal** or **console** and navigate to the webroot folder:
-   ```
-   $ cd ~/webroot
-   $ git clone https://github.com/getgrav/grav.git
-   ```
+## For developers
 
-2. Install the **plugin** and **theme dependencies** by using the [Grav CLI application](https://learn.getgrav.org/advanced/grav-cli) `bin/grav`:
-   ```
-   $ cd ~/webroot/grav
-   $ bin/grav install
-   ```
+### Making changes to the code
 
-Check out the [install procedures](https://learn.getgrav.org/basics/installation) for more information.
+This website works with [Grav](https://getgrav.org/). The following instructions will guide you through making a proper versioned copy of this repository on your computer, making and viewing changes locally and suggesting them back to the original repository.
 
-# Adding Functionality
+* If you don't have a GitHub account, [create one](https://github.com/join) first
+* Click on "Fork" on the top right. This will add a copy of the repository to your account for you to make changes.
+* Download [GitHub Desktop](https://desktop.github.com/)
+* Install and add GitHub Desktop to your Applications
+* Open GitHub Desktop and click on the GitHub Desktop menu > Preferences > Accounts > login to your github.com account
+* Click on the `+` button, click on the "Clone" tab and select "stathisforeva" (your forked version of this repository)
+* You now have a versioned copy of the website on your local computer! To start playing around, open Documents > workspace > negaca\_grav in your favourite editor and make changes
+* To see your changes, you need to install a local web server (e.g. Apache with PHP 7.2+). See [Grav's requirements](https://learn.getgrav.org/basics/requirements)
+* When you're happy with your changes, go back to GitHub Desktop, review your changes, write a summary of what you've done and click on "Commit to master"
 
-You can download [plugins](https://getgrav.org/downloads/plugins) or [themes](https://getgrav.org/downloads/themes) manually from the appropriate tab on the [Downloads page on https://getgrav.org](https://getgrav.org/downloads), but the preferred solution is to use the [Grav Package Manager](https://learn.getgrav.org/advanced/grav-gpm) or `GPM`:
+### To suggest changes back
 
-```
-$ bin/gpm index
-```
+To contribute your changes back to the main repository:
 
-This will display all the available plugins and then you can install one or more with:
+* In GitHub Desktop click on "Pull Request" on the top right
+* Make a Pull Request with your commits
 
-```
-$ bin/gpm install <plugin/theme>
-```
+### Installing resources
 
-# Updating
+    curl -sS https://getcomposer.org/installer | php72
+    php72 bin/composer.phar install --no-dev -o
 
-To update Grav you should use the [Grav Package Manager](https://learn.getgrav.org/advanced/grav-gpm) or `GPM`:
+This will create the `vendor` directory with all php dependencies
 
-```
-$ bin/gpm selfupgrade
-```
+You may also have to run
 
-To update plugins and themes:
+    git clean -xfd
+    php72 bin/grav install
 
-```
-$ bin/gpm update
-```
+To update GRAV and plugins run:
 
+    php72 bin/gpm self-upgrade
+    php72 bin/gpm update
 
-# Contributing
-We appreciate any contribution to Grav, whether it is related to bugs, grammar, or simply a suggestion or improvement! Please refer to the [Contributing guide](CONTRIBUTING.md) for more guidance on this topic.
+#### Pulling from git
 
-## Security issues
-If you discover a possible security issue related to Grav or one of its plugins, please email the core team at contact@getgrav.org and we'll address it as soon as possible.
+After a `git pull` you may also have to run:
 
-# Getting Started
+    git clean -xfd
+    php72 bin/grav install
 
-* [What is Grav?](https://learn.getgrav.org/basics/what-is-grav)
-* [Install](https://learn.getgrav.org/basics/installation) Grav in few seconds
-* Understand the [Configuration](https://learn.getgrav.org/basics/grav-configuration)
-* Take a peek at our available free [Skeletons](https://getgrav.org/downloads/skeletons)
-* If you have questions, jump on our [Discord Chat Server](https://chat.getgrav.org)!
-* Have fun!
+#### Adding external css
 
-# Exploring More
+You can use `bower` in the custom theme to add external css to the site. Add you dependency in
 
-* Have a look at our [Basic Tutorial](https://learn.getgrav.org/basics/basic-tutorial)
-* Dive into more [advanced](https://learn.getgrav.org/advanced) functions
-* Learn about the [Grav CLI](https://learn.getgrav.org/cli-console/grav-cli)
-* Review examples in the [Grav Cookbook](https://learn.getgrav.org/cookbook)
-* More [Awesome Grav Stuff](https://github.com/getgrav/awesome-grav)
+    user/themes/bootgrav-custom/bower.json
 
-# Backers
-Support Grav with a monthly donation to help us continue development. [[Become a backer](https://opencollective.com/grav#backer)]
+and then do
 
-<img src="https://opencollective.com/grav/tiers/backers.svg?avatarHeight=36&width=600" />
+    bower install
 
-# Sponsors
-Become a sponsor and get your logo on our README on Github with a link to your site. [[Become a sponsor](https://opencollective.com/grav#sponsor)]
+You can use the installed css in your twig templates as, e.g.
 
-<img src="https://opencollective.com/grav/tiers/sponsors.svg?avatarHeight=36&width=600" />
+    {% do assets.add('theme://bower/bootstrap-social/bootstrap-social.css',100) %}
 
-# License
+### Snippets used
 
-See [LICENSE](LICENSE.txt)
+* [social icons](http://bootsnipp.com/snippets/3kQrB)
+* [fancybox](http://bootsnipp.com/snippets/featured/image-gallery-with-fancybox)
 
+### User management
 
-[gitflow-model]: http://nvie.com/posts/a-successful-git-branching-model/
-[gitflow-extensions]: https://github.com/nvie/gitflow
+Make a new user:
 
-# Running Tests
+    php72 ./bin/plugin login newuser
 
-First install the dev dependencies by running `composer update` from the Grav root.
-Then `composer test` will run the Unit Tests, which should be always executed successfully on any site.
-Windows users should use the `composer test-windows` command.
-You can also run a single unit test file, e.g. `composer test tests/unit/Grav/Common/AssetsTest.php`
+Change a password:
+
+    php72 ./bin/plugin login newpass
+
+### Making the batizado page
+
+1. In the Admin, go to a previous batizado page tree and click Copy
+2. Go back to Pages. You'll see the new batizado page tree. Edit the subpages with the new info
+3. To add a new background image, go to the "top" subpage and drop a new 1440x960 image in the page media. Delete the previous background image.
+4. In the "special guests" subpage, edit the list and add 200x200 images in the page media. Those will be shown as thumbnails. You can also re-order the images by dragging and dropping in the page media.
+5. To edit the paypal payment, make changes in the "capoeira festival" page. This code is in html. You need to make _the same_ changes in the paypal account (username: negaca@capoeiracambridge.co.uk). Login and go to Tools -> PayPal Buttons. Copy a previous button to make a new one. After you make changes on paypal, copy the `hosted_button_id` to the form in the batizado page: `<input type="hidden" name="hosted_button_id" value="copy_code_here">`
+6. Edit the student payment page including the paypal html. Same as above.
+
