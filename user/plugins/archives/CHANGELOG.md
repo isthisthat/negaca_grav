@@ -1,3 +1,34 @@
+# v2.0.2
+## 12/02/2020
+
+1. [](#improved)
+    * Add taxonomy values date format customization [#29](https://github.com/getgrav/grav-plugin-archives/pull/29)  
+
+# v2.0.1
+## 07/09/2020
+
+1. [](#bugfix)
+    * Fix for archives on homepage [#26](https://github.com/getgrav/grav-plugin-archives/issues/26)  
+
+# v2.0.0
+## 04/06/2020
+
+1. [](#new)
+    * New per-page configuration to allow for multiple 'archives' in a single site
+    * Added new `page@` filter support to allow configuration from page collection [#20](https://github.com/getgrav/grav-plugin-archives/pull/20)
+1. [](#improved)
+    * Added more sort-by options
+
+# v1.6.1
+## 02/24/2020
+
+1. [](#new)
+    * Pass phpstan level 1 tests
+    * Require Grav v.1.6
+1. [](#bugfix)
+    * Exclude empty folders from archive
+    * Fixed issue in 1.7 due to `validation: strict` and missing `taxonomy_names` blueprint item
+
 # v1.6.0
 ## 04/17/2019
 

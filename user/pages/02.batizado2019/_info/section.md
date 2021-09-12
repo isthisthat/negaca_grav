@@ -36,7 +36,7 @@ Please note:
 				<div class="form-group">
 					<label for="os0" class="col-sm-4 control-label">Select Ticket</label>
 					<div class="col-sm-8">
-						<select class="form-control" name="os0" id="os0">
+						<select class="form-control" name="os0" id="os0" disabled>
 							<option value="Guest - Friday only -">Guest - Friday only - £35.00 GBP</option>
 							<option value="Guest - Only Saturday or Sunday -">Guest - Only Saturday or Sunday - £70.00 GBP</option>
 							<option value="Guest - Whole weekend -" selected>Guest - Whole weekend - £85.00 GBP</option>
@@ -49,7 +49,7 @@ Please note:
 				<div class="form-group">
 				    <label for="os1" class="col-sm-4 control-label">Accommodation</label>
 				    <div class="col-sm-8">
-					<select class="form-control" name="os1" id="os1">
+					<select class="form-control" name="os1" id="os1" disabled>
 					    <option value="Dont need">Dont need</option>
 					    <option value="Please accommodate me for 1 night">Please accommodate me for 1 night</option>
 					    <option value="Please accommodate me for 2 nights">Please accommodate me for 2 nights</option>
@@ -59,13 +59,13 @@ Please note:
 				<div class="form-group">
 					<label for="os2" class="col-sm-4 control-label">Name and Group</label>
 					<div class="col-sm-8">
-						<input type="text" name="os2" id="os2" class="form-control" maxlength="200" placeholder="Name, Group">
+						<input type="text" name="os2" id="os2" class="form-control" maxlength="200" placeholder="Name, Group" disabled>
 					</div>
 				</div>
 				<div class="form-group">
 					<label for="btn_buy" class="col-sm-4 control-label"> </label>
 					<div class="col-sm-8">
-						<input type="image" id="btn_buy" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+						<input type="image" id="btn_buy" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!" disabled>
 						<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
 	    <button id="popover-help" type="button" class="btn btn-link pull-right" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Having trouble paying with PayPal? Try clearing your browser cookies or open an icognito window and try again. Email us at negaca@capoeiracambridge.co.uk if you are unable to pay.">help</button>
 					</div>

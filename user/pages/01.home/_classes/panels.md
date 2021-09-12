@@ -7,23 +7,22 @@ textformatter: false
 ==Cambridge==
 
 ### Tuesday
-* All Level Adults (beginners welcome)  
-8:00 - 9:00 pm, £6
+* All Level Adults
+7:30 - 8:30pm
 
-[**North Cambridge Academy**  
-Arbury Road,
-Cambridge, CB2 JF](https://goo.gl/maps/eC7FP7qHRJG2)
+<b>ONLINE ONLY</b> (see announcements above)
+
+<!--strike>[**NCI Sports & Social Club**  
+Holland Street,
+Cambridge, CB4 3DL](https://goo.gl/maps/fYHaPGBU7DR2?target=_blank)</strike-->
 
 ### Thursday
-* Beginner Adults  
-6:30 - 7:20 pm, £6
-
-* All Level Adults  
-7:30 - 9:00 pm, £6
+* All Level Adults
+7:00 - 8:00pm, £6
 
 [**28th Scout Hut**  
 Flamesteed Road,
-Cambridge, CB1 3QU](https://goo.gl/maps/wSZbnx9icyn)
+Cambridge, CB1 3QU](https://goo.gl/maps/wSZbnx9icyn?target=_blank)
 
 ==contact <a href="mailto:negaca@capoeiracambridge.co.uk">Negaça</a>==
 
@@ -32,12 +31,14 @@ Cambridge, CB1 3QU](https://goo.gl/maps/wSZbnx9icyn)
 ==Saffron Walden==
 
 ### Wednesday
-* All Level Adults (beginners welcome, please get in touch first)  
-6:30 - 7:30pm, £6
+* CLASSES TEMPORARILY SUSPENDED DUE TO COVID-19
 
-[**Golden Acre Community Centre**  
+<strike>* All Level Adults (beginners welcome, please get in touch first)  
+6:00 - 7:00pm, £6</strike>
+
+<strike>[**Golden Acre Community Centre**  
 Long Horse Croft,
-Saffron Walden, Essex, CB11 4BL](https://goo.gl/maps/74EXohV3jAK2)
+Saffron Walden, Essex, CB11 4BL](https://goo.gl/maps/74EXohV3jAK2?target=_blank)</strike>
 
 ==contact <a href="mailto:manuela.gnc@gmail.com">Manuela</a>==
 
@@ -46,11 +47,13 @@ Saffron Walden, Essex, CB11 4BL](https://goo.gl/maps/74EXohV3jAK2)
 ==Granta Park==
 
 ### Monday
-* Beginner Adults
-12:15 - 1:00pm (free with Nuffield gym membership)
+* CLASSES TEMPORARILY SUSPENDED DUE TO COVID-19
 
-[**The Apiary**  
-Granta Park, Cambridge, CB21 6GP](https://goo.gl/maps/GtTbpHJrBQvXcngx8)
+<strike>* Beginner Adults
+12:15 - 1:00pm (free with Nuffield gym membership)</strike>
+
+<strike>[**The Apiary**  
+Granta Park, Cambridge, CB21 6GP](https://goo.gl/maps/GtTbpHJrBQvXcngx8?target=_blank)</strike>
 
 ==contact <a href="mailto:china@capoeiracambridge.co.uk">China</a>==
 

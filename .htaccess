@@ -65,6 +65,6 @@ DirectoryIndex index.php index.html index.htm
 # End - Prevent Browsing and Set Default Resources
 
 <FilesMatch .php$>
-    SetHandler php72-cgi
+    SetHandler php74-cgi
 </FilesMatch>
 

@@ -1,3 +1,31 @@
+# v3.0.0
+## 11/04/2020
+
+1. [](#new)
+    * Support for **NextGen Editor** integration with Shortcode UI custom blocks
+
+# v2.4.2
+## 04/27/2020
+
+1. [](#bugfix)
+    * Fix image compare shortcode regex [#34](https://github.com/getgrav/grav-plugin-shortcode-ui/pull/34)
+
+# v2.4.1
+## 02/14/2020
+
+1. [](#new)
+    * Updated code for shortcode-core plugin v4.2.1
+
+# v2.4.0
+## 02/11/2020
+
+1. [](#new)
+    * Pass phpstan level 1 tests
+    * Requires shortcode-core plugin v4.2.0
+    * Twig 2.0 compatibility
+1. [](#improved)
+    * Code cleanup
+
 # v2.3.0
 ## 02/06/2019
 

@@ -3,12 +3,13 @@
 /**
  * @package    Grav\Plugin\Login
  *
- * @copyright  Copyright (C) 2014 - 2017 RocketTheme, LLC. All rights reserved.
+ * @copyright  Copyright (C) 2014 - 2020 RocketTheme, LLC. All rights reserved.
  * @license    MIT License; see LICENSE file for details.
  */
 
 namespace Grav\Plugin\Login;
 
+use Grav\Common\Config\Config;
 use Grav\Common\Grav;
 use Grav\Common\Language\Language;
 use Grav\Common\Uri;
@@ -16,6 +17,7 @@ use Grav\Common\User\Interfaces\UserCollectionInterface;
 use Grav\Common\User\Interfaces\UserInterface;
 use Grav\Common\Utils;
 use Grav\Plugin\Email\Utils as EmailUtils;
+use Grav\Plugin\Login\Events\UserLoginEvent;
 use Grav\Plugin\Login\TwoFactorAuth\TwoFactorAuth;
 use Grav\Plugin\LoginPlugin;
 use RocketTheme\Toolbox\Session\Message;
@@ -57,12 +59,6 @@ class Controller
     protected $prefix = 'task';
 
     /**
-     * @var RememberMe\RememberMe
-     * @deprecated 2.0 Use $grav['login']->rememberMe() instead
-     */
-    protected $rememberMe;
-
-    /**
      * @var Login
      */
     protected $login;
@@ -78,8 +74,6 @@ class Controller
         $this->action = $action;
         $this->login = $this->grav['login'];
         $this->post = $post ? $this->getPost($post) : [];
-
-        $this->rememberMe();
     }
 
     /**
@@ -128,56 +122,36 @@ class Controller
         /** @var Message $messages */
         $messages = $this->grav['messages'];
 
-        $userKey = (string)($this->post['username'] ?? '');
-        $ip = Uri::ip();
-        $isIPv4 = filter_var($ip, FILTER_VALIDATE_IP, FILTER_FLAG_IPV4);
-        $ipKey = $isIPv4 ? $ip : Utils::getSubnet($ip, $this->grav['config']->get('plugins.login.ipv6_subnet_size'));
+        // Remove login nonce from the form.
+        $form = array_diff_key($this->post, ['login-form-nonce' => true]);
 
         // Is twofa enabled?
         $twofa = $this->grav['config']->get('plugins.login.twofa_enabled', false);
 
-        // Pseudonymization of the IP
-        $ipKey = sha1($ipKey . $this->grav['config']->get('security.salt'));
-
-        $rateLimiter = $this->login->getRateLimiter('login_attempts');
-
-        // Check if the current IP has been used in failed login attempts.
-        $attempts = \count($rateLimiter->getAttempts($ipKey, 'ip'));
-
-        $rateLimiter->registerRateLimitedAction($ipKey, 'ip')->registerRateLimitedAction($userKey);
-
-        // Check rate limit for both IP and user, but allow each IP a single try even if user is already rate limited.
-        if ($rateLimiter->isRateLimited($ipKey, 'ip') || ($attempts && $rateLimiter->isRateLimited($userKey))) {
-            $messages->add($t->translate(['PLUGIN_LOGIN.TOO_MANY_LOGIN_ATTEMPTS', $rateLimiter->getInterval()]), 'error');
-            $this->setRedirect($this->grav['config']->get('plugins.login.route', '/'));
-
-            return true;
-        }
-
-        // Remove login nonce from the form.
-        $form = array_diff_key($this->post, ['login-form-nonce' => true]);
-
         // Fire Login process.
-        $event = $this->login->login($form, ['remember_me' => true, 'twofa' => $twofa], ['return_event' => true]);
+        $event = $this->login->login($form, ['rate_limit' => true, 'remember_me' => true, 'twofa' => $twofa], ['return_event' => true]);
         $user = $event->getUser();
 
+        $login_redirect = $this->login->getRoute('after_login');
+
         if ($user->authenticated) {
-            $rateLimiter->resetRateLimit($ipKey, 'ip')->resetRateLimit($userKey);
             if ($user->authorized) {
                 $event->defMessage('PLUGIN_LOGIN.LOGIN_SUCCESSFUL', 'info');
 
                 $event->defRedirect(
-                    $this->grav['session']->redirect_after_login ?: $this->grav['uri']->referrer('/')
+                    $this->grav['session']->redirect_after_login ?:
+                        $login_redirect ?: $this->grav['uri']->referrer('/')
                 );
             } else {
-                $login_route = $this->grav['config']->get('plugins.login.route');
-                $event->defRedirect($login_route ?: $this->grav['uri']->referrer('/'));
+                $redirect_to_login = $this->grav['config']->get('plugins.login.redirect_to_login');
+                $redirect_route = $redirect_to_login ? $this->login->getRoute('login') : null;
+                $event->defRedirect($redirect_route ?? $this->grav['uri']->referrer('/'));
             }
         } else {
             if ($user->authorized) {
                 $event->defMessage('PLUGIN_LOGIN.ACCESS_DENIED', 'error');
 
-                $event->defRedirect($this->grav['config']->get('plugins.login.route_unauthorized', '/'));
+                $event->defRedirect($this->login->getRoute('unauthorized') ?? '/');
             } else {
                 $event->defMessage('PLUGIN_LOGIN.LOGIN_FAILED', 'error');
             }
@@ -198,41 +172,130 @@ class Controller
 
     public function taskTwoFa()
     {
+        /** @var Config $config */
+        $config = $this->grav['config'];
+
         /** @var Language $t */
         $t = $this->grav['language'];
 
         /** @var Message $messages */
         $messages = $this->grav['messages'];
+        if (!$config->get('plugins.login.twofa_enabled', false)) {
+            $messages->add($t->translate('PLUGIN_LOGIN.2FA_FAILED'),  'error');
 
-        /** @var TwoFactorAuth $twoFa */
-        $twoFa = $this->grav['login']->twoFactorAuth();
+            return true;
+        }
+
+        $twoFa = $this->login->twoFactorAuth();
         $user = $this->grav['user'];
 
         $code = $this->post['2fa_code'] ?? null;
         $secret = $user->twofa_secret ?? null;
 
+        $eventOptions = [
+            'credentials' => ['username' => $user->get('username')],
+            'options' => ['twofa' => true]
+        ];
+
+        // Attempt to authenticate the user.
+        $event = new UserLoginEvent($eventOptions);
+        $event->setUser($user);
+
         if (!$code || !$secret || !$twoFa->verifyCode($secret, $code)) {
-            $messages->add($t->translate('PLUGIN_LOGIN.2FA_FAILED'),  'error');
+            $event->setStatus(UserLoginEvent::AUTHENTICATION_FAILURE | UserLoginEvent::AUTHORIZATION_CHALLENGE);
+            $event->setMessage($t->translate('PLUGIN_LOGIN.2FA_FAILED'),  'error');
 
+            $this->grav->fireEvent('onUserLoginFailure', $event);
+
+            // Make sure that event didn't mess up with the user authorization.
+            $user = $event->getUser();
             $user->authenticated = false;
+            $user->authorized = false;
 
-            $login_route = $this->grav['config']->get('plugins.login.route');
-            if ($login_route) {
-                $this->setRedirect($login_route, 303);
+            if (!$event->getRedirect()) {
+                $redirect_to_login = $this->grav['config']->get('plugins.login.route_to_login');
+                $login_route = $this->login->getRoute('login');
+
+                $event->setRedirect(
+                    $redirect_to_login && $login_route ? $login_route : $this->getCurrentRedirect(),
+                    303
+                );
             }
+        } else {
+
+            $event->setStatus(UserLoginEvent::AUTHENTICATION_SUCCESS | UserLoginEvent::AUTHORIZATION_CHALLENGE);
+            $event->setMessage($t->translate('PLUGIN_LOGIN.LOGIN_SUCCESSFUL'),  'info');
+
+            $this->grav->fireEvent('onUserLoginAuthorized', $event);
+
+            // Make sure that event didn't mess up with the user authorization.
+            $user = $event->getUser();
+            $user->authenticated = $event->isSuccess();
+            $user->authorized = !$event->isDelayed();
+
+            if (!$event->getRedirect()) {
+                $login_redirect = $this->login->getRoute('after_login');
+
+                $event->setRedirect(
+                    $this->grav['session']->redirect_after_login ?: $login_redirect ?: $this->grav['uri']->referrer('/'),
+                    303
+                );
+            }
+        }
+
+        /** @var Message $messages */
+        $messages = $this->grav['messages'];
+        $messages->add($event->getMessage(), $event->getMessageType());
+
+        $redirect = $event->getRedirect() ?: $this->getCurrentRedirect();
+        $this->setRedirect($redirect, $event->getRedirectCode());
+
+        return true;
+    }
+
+    public function taskTwofa_cancel()
+    {
+        /** @var Config $config */
+        $config = $this->grav['config'];
+
+        /** @var Language $t */
+        $t = $this->grav['language'];
+
+        /** @var Message $messages */
+        $messages = $this->grav['messages'];
+        if (!$config->get('plugins.login.twofa_enabled', false)) {
+            $messages->add($t->translate('PLUGIN_LOGIN.2FA_FAILED'),  'error');
 
             return true;
         }
 
-        $messages->add($t->translate('PLUGIN_LOGIN.LOGIN_SUCCESSFUL'),  'info');
+        $user = $this->grav['user'];
+        $eventOptions = [
+            'credentials' => ['username' => $user->get('username')],
+            'options' => ['twofa' => true]
+        ];
 
-        $user->authorized = true;
+        $event = new UserLoginEvent($eventOptions);
 
-        $this->setRedirect(
-            $this->grav['session']->redirect_after_login
-                ?: $this->grav['config']->get('plugins.login.redirect_after_login')
-                ?: $this->grav['uri']->referrer('/')
-        );
+        $event->setStatus(UserLoginEvent::AUTHENTICATION_CANCELLED | UserLoginEvent::AUTHORIZATION_CHALLENGE);
+        $event->setMessage($t->translate('PLUGIN_LOGIN.2FA_FAILED'),  'error');
+
+        $this->grav->fireEvent('onUserLoginFailure', $event);
+
+        // Make sure that event didn't mess up with the user authorization.
+        $user = $event->getUser();
+        $user->authenticated = false;
+        $user->authorized = false;
+
+        if (!$event->getRedirect()) {
+            $redirect_to_login = $this->grav['config']->get('plugins.login.route_to_login');
+            $login_route = $this->login->getRoute('login');
+
+            $event->setRedirect(
+                $redirect_to_login && $login_route ? $login_route : $this->getCurrentRedirect(),
+                303
+            );
+        }
 
         return true;
     }
@@ -255,7 +318,9 @@ class Controller
             $messages->add($t->translate($message), $event->getMessageType());
         }
 
-        $redirect = $event->getRedirect() ?: $this->grav['config']->get('plugins.login.redirect_after_logout');
+        $logout_redirect = $this->login->getRoute('after_logout');
+
+        $redirect = $event->getRedirect() ?: $logout_redirect ?: $this->getCurrentRedirect();
         if ($redirect) {
             $this->setRedirect($redirect, $event->getRedirectCode());
         }
@@ -288,14 +353,14 @@ class Controller
 
         if (!isset($this->grav['Email'])) {
             $messages->add($language->translate('PLUGIN_LOGIN.FORGOT_EMAIL_NOT_CONFIGURED'), 'error');
-            $this->setRedirect($this->grav['config']->get('plugins.login.route_forgot', '/'));
+            $this->setRedirect($this->login->getRoute('forgot') ?? '/');
 
             return true;
         }
 
         if (!$user || !$user->exists()) {
             $messages->add($language->translate('PLUGIN_LOGIN.FORGOT_INSTRUCTIONS_SENT_VIA_EMAIL'), 'info');
-            $this->setRedirect($this->grav['config']->get('plugins.login.route_forgot', '/'));
+            $this->setRedirect($this->login->getRoute('forgot') ?? '/');
 
             return true;
         }
@@ -303,7 +368,7 @@ class Controller
         if (empty($user->email)) {
             $messages->add($language->translate(['PLUGIN_LOGIN.FORGOT_CANNOT_RESET_EMAIL_NO_EMAIL', $email]),
                 'error');
-            $this->setRedirect($this->grav['config']->get('plugins.login.route_forgot', '/'));
+            $this->setRedirect($this->login->getRoute('forgot') ?? '/');
 
             return true;
         }
@@ -311,7 +376,7 @@ class Controller
         if (empty($user->password) && empty($user->hashed_password)) {
             $messages->add($language->translate(['PLUGIN_LOGIN.FORGOT_CANNOT_RESET_EMAIL_NO_PASSWORD', $email]),
                 'error');
-            $this->setRedirect($this->grav['config']->get('plugins.login.route_forgot', '/'));
+            $this->setRedirect($this->login->getRoute('forgot') ?? '/');
 
             return true;
         }
@@ -320,7 +385,7 @@ class Controller
 
         if (empty($from)) {
             $messages->add($language->translate('PLUGIN_LOGIN.FORGOT_EMAIL_NOT_CONFIGURED'), 'error');
-            $this->setRedirect($this->grav['config']->get('plugins.login.route_forgot', '/'));
+            $this->setRedirect($this->login->getRoute('forgot') ?? '/');
 
             return true;
         }
@@ -331,7 +396,7 @@ class Controller
 
         if ($rateLimiter->isRateLimited($userKey)) {
             $messages->add($language->translate(['PLUGIN_LOGIN.FORGOT_CANNOT_RESET_IT_IS_BLOCKED', $email, $rateLimiter->getInterval()]), 'error');
-            $this->setRedirect($this->grav['config']->get('plugins.login.route', '/'));
+            $this->setRedirect($this->login->getRoute('login') ?? '/');
 
             return true;
         }
@@ -351,7 +416,8 @@ class Controller
             $lang = '';
         }
 
-        $reset_link = $this->grav['base_url_absolute'] . $lang . $this->grav['config']->get('plugins.login.route_reset') . '/task:login.reset/token' . $param_sep . $token . '/user' . $param_sep . $user->username . '/nonce' . $param_sep . Utils::getNonce('reset-form');
+        $resetRoute = $this->login->getRoute('reset');
+        $reset_link = $this->grav['base_url_absolute'] . $lang . $resetRoute . '/task' . $param_sep . 'login.reset/token' . $param_sep . $token . '/user' . $param_sep . $user->username . '/nonce' . $param_sep . Utils::getNonce('reset-form');
 
         $sitename = $this->grav['config']->get('site.title', 'Website');
 
@@ -368,7 +434,7 @@ class Controller
             $messages->add($language->translate('PLUGIN_LOGIN.FORGOT_INSTRUCTIONS_SENT_VIA_EMAIL'), 'info');
         }
 
-        $this->setRedirect($this->grav['config']->get('plugins.login.route', '/'));
+        $this->setRedirect($this->login->getRoute('login') ?? '/');
 
         return true;
     }
@@ -400,7 +466,7 @@ class Controller
                 if ($good_token === $token) {
                     if (time() > $expire) {
                         $messages->add($language->translate('PLUGIN_LOGIN.RESET_LINK_EXPIRED'), 'error');
-                        $this->grav->redirectLangSafe($this->grav['config']->get('plugins.login.route_forgot', '/'));
+                        $this->grav->redirectLangSafe($this->login->getRoute('forgot') ?? '/');
 
                         return true;
                     }
@@ -410,14 +476,14 @@ class Controller
                     $user->save();
 
                     $messages->add($language->translate('PLUGIN_LOGIN.RESET_PASSWORD_RESET'), 'info');
-                    $this->setRedirect($this->grav['config']->get('plugins.login.route', '/'));
+                    $this->setRedirect($this->login->getRoute('login') ?? '/');
 
                     return true;
                 }
             }
 
             $messages->add($language->translate('PLUGIN_LOGIN.RESET_INVALID_LINK'), 'error');
-            $this->grav->redirectLangSafe($this->grav['config']->get('plugins.login.route_forgot'));
+            $this->grav->redirectLangSafe($this->login->getRoute('forgot') ?? '/');
 
             return true;
 
@@ -428,7 +494,7 @@ class Controller
 
         if (!$user || !$token) {
             $messages->add($language->translate('PLUGIN_LOGIN.RESET_INVALID_LINK'), 'error');
-            $this->grav->redirectLangSafe($this->grav['config']->get('plugins.login.route_forgot'));
+            $this->grav->redirectLangSafe($this->login->getRoute('forgot') ?? '/');
 
             return true;
         }
@@ -470,6 +536,23 @@ class Controller
         header('Content-Type: application/json');
         echo json_encode($json_response);
         exit;
+    }
+
+    /**
+     * @return string
+     */
+    protected function getCurrentRedirect()
+    {
+        /** @var Uri $uri */
+        $uri = $this->grav['uri'];
+        $redirect = $uri->route();
+        foreach ($uri->params(null, true) as $key => $value) {
+            if (!in_array($key, ['task', 'nonce', 'login-nonce', 'logout-nonce'], true)) {
+                $redirect .= $uri->params($key);
+            }
+        }
+
+        return $redirect;
     }
 
     /**
@@ -552,9 +635,7 @@ class Controller
      */
     public function rememberMe($var = null)
     {
-        $this->rememberMe = $this->login->rememberMe($var);
-
-        return $this->rememberMe;
+        return $this->login->rememberMe($var);
     }
 
     /**

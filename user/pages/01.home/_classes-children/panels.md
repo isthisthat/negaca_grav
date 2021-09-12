@@ -8,20 +8,23 @@ textformatter: false
 
 ### Friday
 
-* Children class (6 to 9 years)  
-6:15 - 7:00pm, £4 (full - for waiting list contact <a href="mailto:manuela.gnc@gmail.com">Manuela</a>)
+* Children class (beginners and 7-9 years old)  
+6:15 - 7:00pm,  Classes closed until further notice due to Coronavirus precaution
+(Closed: for info contact <a href="mailto:manuela.gnc@gmail.com">Manuela</a>)
 
-* Children class (10 to 15 years)  
-7:00 - 8:00pm, £4 (spaces available)
+* Children class (experienced and 10-14 years old)  
+7:00 - 8:00pm,  Classes closed until further notice due to Coronavirus precaution
+(Waiting List: for info contact <a href="mailto:manuela.gnc@gmail.com">Manuela</a>))
 
-* dates in May are: 3, 17, 24, 31 (10 there will be no class)
+* prices for children non-members: £4 drop-in available to non-members-only for testing the class. Membership is required at the latest after testing 3 consecutive classes.  
+* prices for children members: £10 annual membership fee including Nakmas membership and student-to-student insurance. Term fee is £45.
 
 [**28th Scout Hut**  
 Flamesteed Road,
 Cambridge, CB1 3QU](https://goo.gl/maps/wSZbnx9icyn)
 
-**Spring Term 2019 Dates**
-* All Fridays from 11th Jan 2019 until 10th Apr 2019. Closed on 22nd February 2019 for February Half Term.
+**Spring Term 2020 Dates**
+* Cambridge: 10 Jan start, 3 Apr ends. Classes closed until further notice due to Coronavirus precaution (Friday)
 
 ==contact <a href="mailto:manuela.gnc@gmail.com">Manuela</a>==
 
@@ -31,18 +34,22 @@ Cambridge, CB1 3QU](https://goo.gl/maps/wSZbnx9icyn)
 
 ### Wednesday
 
-* Children class (6 to 9 years)  
-6:00 - 6:45pm, £4 (spaces available)
+* Children class (7 to 14 years)  
+Classes closed until further notice due to Coronavirus precaution6:00 - 6:45pm, 
+(spaces available: for info contact <a href="mailto:manuela.gnc@gmail.com">Manuela</a>))
 
-* Children & adult improvers class (10+ years)  
-6:45 - 7:45pm, £4 (spaces available)
+
+* prices for children non-members: £4 drop-in available to non-members-only for testing the class. Membership is required at the latest after testing 3 consecutive classes.  
+* prices for children members: £10 annual membership fee including Nakmas membership and studen-to-student insurance. Term fee is £45.
+
 
 [**Golden Acre Community Centre**  
 Long Horse Croft,
 Saffron Walden, CB11 4BL](https://goo.gl/maps/74EXohV3jAK2)
 
-**Spring Term 2019 Dates**
-* All Wednesdays from 16th Jan 2019 until 8th Apr 2019. Closed on 20th February 2019 for February Half Term.
+**Spring Term 2020 Dates**
+* Saffron Walden: 15 Jan start, 1 Apr ends. Classes closed until further notice due to Coronavirus precaution (Wednesday) 
+
 
 ==contact <a href="mailto:manuela.gnc@gmail.com">Manuela</a>==
 
@@ -50,7 +57,7 @@ Saffron Walden, CB11 4BL](https://goo.gl/maps/74EXohV3jAK2)
 
 ==Stapleford==
 
-* classes temporarily suspended
+* Class suspended
 
 <!--
 ### Friday

@@ -1,6 +1,6 @@
 import $ from 'jquery';
 import Dropzone from 'dropzone';
-import EXIF from 'exif-js';
+// import EXIF from 'exif-js';
 import request from '../../utils/request';
 import { config, translations } from 'grav-config';
 
@@ -71,33 +71,51 @@ const DropzoneMediaConfig = {
         </div>`.trim()
 };
 
-global.EXIF = EXIF;
+// global.EXIF = EXIF;
 
 const ACCEPT_FUNC = function(file, done, settings) {
     const resolution = settings.resolution;
     if (!resolution) return done();
 
-    setTimeout(() => {
-        let error = '';
-        if (resolution.min) {
-            Object.keys(resolution.min).forEach((attr) => {
-                if (resolution.min[attr] && file[attr] < resolution.min[attr]) {
-                    error += translations.PLUGIN_FORM.RESOLUTION_MIN.replace(/{{attr}}/g, attr).replace(/{{min}}/g, resolution.min[attr]);
+    const reader = new FileReader();
+    let error = '';
+    const hasMin = (resolution.min && (resolution.min.width || resolution.min.height));
+    const hasMax = (resolution.max && (resolution.max.width || resolution.max.height));
+    if (hasMin || (!(settings.resizeWidth || settings.resizeHeight) && hasMax)) {
+        reader.onload = function(event) {
+            const image = new Image();
+            image.src = event.target.result;
+            image.onerror = function() {
+                done(translations.PLUGIN_ADMIN.FILE_ERROR_UPLOAD);
+            };
+            image.onload = function() {
+                if (resolution.min) {
+                    Object.keys(resolution.min).forEach((attr) => {
+                        if (resolution.min[attr] && this[attr] < resolution.min[attr]) {
+                            error += translations.PLUGIN_FORM.RESOLUTION_MIN.replace(/{{attr}}/g, attr).replace(/{{min}}/g, resolution.min[attr]);
+                        }
+                    });
                 }
-            });
-        }
 
-        if (!(settings.resizeWidth || settings.resizeHeight)) {
-            if (resolution.max) {
-                Object.keys(resolution.max).forEach((attr) => {
-                    if (resolution.max[attr] && file[attr] > resolution.max[attr]) {
-                        error += translations.PLUGIN_FORM.RESOLUTION_MAX.replace(/{{attr}}/g, attr).replace(/{{max}}/g, resolution.max[attr]);
+                if (!(settings.resizeWidth || settings.resizeHeight)) {
+                    if (resolution.max) {
+                        Object.keys(resolution.max).forEach((attr) => {
+                            if (resolution.max[attr] && this[attr] > resolution.max[attr]) {
+                                error += translations.PLUGIN_FORM.RESOLUTION_MAX.replace(/{{attr}}/g, attr).replace(/{{max}}/g, resolution.max[attr]);
+                            }
+                        });
                     }
-                });
-            }
-        }
+                }
+
+                URL.revokeObjectURL(image.src); // release memory
+                return error ? done(error) : done();
+            };
+        };
+
+        reader.readAsDataURL(file);
+    } else {
         return error ? done(error) : done();
-    }, 50);
+    }
 };
 
 export default class FilesField {
@@ -317,7 +335,9 @@ export function UriToMarkdown(uri) {
     uri = uri.replace(/\(/g, '%28');
     uri = uri.replace(/\)/g, '%29');
 
-    return uri.match(/\.(jpe?g|png|gif|svg|mp4|webm|ogv|mov)$/i) ? `![](${uri})` : `[${decodeURI(uri)}](${uri})`;
+    const title = uri.split('.').slice(0, -1).join('.');
+
+    return uri.match(/\.(jpe?g|png|gif|svg|webp|mp4|webm|ogv|mov)$/i) ? `![${title}](${uri} "${title}")` : `[${decodeURI(uri)}](${uri})`;
 }
 
 let instances = [];
@@ -353,6 +373,7 @@ const addNode = (container) => {
         resizeWidth: settings.resizeWidth || null,
         resizeHeight: settings.resizeHeight || null,
         resizeQuality: settings.resizeQuality || null,
+        resolution: settings.resolution || null,
         accept: function(file, done) { ACCEPT_FUNC(file, done, settings); }
     };
 
@@ -361,7 +382,7 @@ const addNode = (container) => {
     instances.push(new FilesField({ container, options }));
 };
 
-export let Instances = (() => {
+export let Instance = (() => {
     $('.dropzone.files-upload').each((i, container) => addNode(container));
     $('body').on('mutation._grav', onAddedNodes);
 

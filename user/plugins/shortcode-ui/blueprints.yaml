@@ -1,5 +1,7 @@
 name: Shortcode UI
-version: 2.3.0
+slug: shortcode-ui
+type: plugin
+version: 3.0.0
 description: "This plugin provides several UI shortcodes"
 icon: code
 author:
@@ -13,7 +15,8 @@ bugs: https://github.com/getgrav/grav-plugin-shortcode-ui/issues
 license: MIT
 
 dependencies:
-  - shortcode-core
+  - { name: grav, version: '>=1.6.4' }
+  - { name: shortcode-core, version: '>=5.0.0' }
 
 form:
   validation: strict

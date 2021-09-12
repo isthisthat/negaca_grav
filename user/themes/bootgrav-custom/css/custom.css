@@ -289,4 +289,12 @@ a.btn-social,
 {
     background-color: #6bd079;
 }
+.btn-instagram
+{
+    background-color: #e4405f;
+}
+.btn-instagram:hover
+{
+    background-color: #e75570;
+}
 

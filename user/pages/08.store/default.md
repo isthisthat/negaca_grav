@@ -11,4 +11,13 @@ Books by Mestre Chitaozinho on Amazon (on paperback and Kindle):
 * [Consciencia Capoeiristica](https://www.amazon.co.uk/Consciencia-Capoeiristica-Mestre-Chitaozinho/dp/1541071239/ref=sr_1_3?ie=UTF8&qid=1537865316&sr=8-3&keywords=mestre+Chitaozinho)
 * [A Fina Flor da Malandragem Capoeiristica](https://www.amazon.co.uk/Fina-Flor-Malandragem-Capoeiristica/dp/1987774329/ref=sr_1_2?ie=UTF8&qid=1537865316&sr=8-2&keywords=mestre+Chitaozinho)
 * [A Arte da Conversacao do Jogo da Capoeira](https://www.amazon.co.uk/Arte-Conversacao-Jogo-Capoeira/dp/1726228592/ref=sr_1_4?ie=UTF8&qid=1537865316&sr=8-4&keywords=mestre+Chitaozinho)
+* [Conjecturas Filosóficas da Moral na Capoeira 🆕](https://www.amazon.co.uk/dp/B083XS1C8B)
+
+# Uniforms
+
+Ask one of our instructors for a pair of Negaça abadas (white trousers) or t-shirts. During the batizado (annual festival), participants also get a Negaça t-shirt included in the price.
+
+# Instruments
+
+Ask one of our instructors for a made-to-order berimbau.
 
